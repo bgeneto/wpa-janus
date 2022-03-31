@@ -1,7 +1,8 @@
 curl
 dnsutils
 iputils-ping
-git
-procps
 python3-pip
 python3-venv
+procps
+unzip
+wget
