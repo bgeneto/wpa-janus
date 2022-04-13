@@ -1,9 +1,57 @@
 #
-# File automatically generated on Thu Mar 31 16:46:17 2022
+# File automatically generated on Tue Apr 12 11:16:55 2022
 #
 
 general : 
 {
   admin_key = "UnB-RTP#wpa";
-  rtp_port_range = "6000-7000";
+  rtp_port_range = "6000-6015";
+};
+UnBSec : 
+{
+  type = "rtp";
+  id = "6236006876141836";
+  description = "UnB Secondary Pendulum";
+  media = ( 
+    {
+      type = "video";
+      mid = "v";
+      label = "video";
+      port = "6000";
+      pt = "126";
+      rtpmap = "H264/90000";
+      fmtp = "profile-level-id=42e01f;packetization-mode=1";
+    } );
+};
+FUPSec : 
+{
+  type = "rtp";
+  id = "3507464643573730";
+  description = "FUP Secondary Pendulum";
+  media = ( 
+    {
+      type = "video";
+      mid = "v";
+      label = "video";
+      port = "6001";
+      pt = "126";
+      rtpmap = "H264/90000";
+      fmtp = "profile-level-id=42e01f;packetization-mode=1";
+    } );
+};
+UFRGS : 
+{
+  type = "rtp";
+  id = "6486801508209027";
+  description = "UFRGS Secondary Pendulum ";
+  media = ( 
+    {
+      type = "video";
+      mid = "v";
+      label = "video";
+      port = "6002";
+      pt = "126";
+      rtpmap = "H264/90000";
+      fmtp = "profile-level-id=42e01f;packetization-mode=1";
+    } );
 };

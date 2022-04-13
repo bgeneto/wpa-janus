@@ -1,7 +1,11 @@
 curl
 dnsutils
-iputils-ping
 git
+iputils-ping
+lsof
+nano
 procps
 python3-pip
 python3-venv
+unzip
+wget

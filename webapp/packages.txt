@@ -1,8 +1,0 @@
-curl
-dnsutils
-iputils-ping
-python3-pip
-python3-venv
-procps
-unzip
-wget
