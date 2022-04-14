@@ -10,7 +10,6 @@ Just clone this repo in the directory of your choice:
 cd /opt
 git clone https://github.com/bgeneto/wpa-janus.git
 cd wpa-janus
-docker network create wpa
-docker compose up --build -d
+docker compose up
 ```
 
