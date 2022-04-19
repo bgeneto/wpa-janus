@@ -55,3 +55,19 @@ UFRGS :
       fmtp = "profile-level-id=42e01f;packetization-mode=1";
     } );
 };
+UTFPR : 
+{
+  type = "rtp";
+  id = "4486805518219722";
+  description = "UTFPR Secondary Pendulum ";
+  media = ( 
+    {
+      type = "video";
+      mid = "v";
+      label = "video";
+      port = "6003";
+      pt = "126";
+      rtpmap = "H264/90000";
+      fmtp = "profile-level-id=42e01f;packetization-mode=1";
+    } );
+};
