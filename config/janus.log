@@ -2827,3 +2827,1371 @@ Creating new handle in session 2250597467275777: 593822327132171; 0x7f34c0016560
 [33m[WARN][0m [593822327132171] Error resolving mDNS address (afb73c60-96bf-453f-bcfd-da9c8e18d3b0.local): Error resolving “afb73c60-96bf-453f-bcfd-da9c8e18d3b0.local”: Name or service not known
 [33m[WARN][0m [593822327132171] Error resolving mDNS address (6c14c65e-b320-4547-8740-f9396206038e.local): Error resolving “6c14c65e-b320-4547-8740-f9396206038e.local”: Name or service not known
 [33m[WARN][0m [593822327132171] Error resolving mDNS address (6c14c65e-b320-4547-8740-f9396206038e.local): Error resolving “6c14c65e-b320-4547-8740-f9396206038e.local”: Name or service not known
+Timeout expired for session 2250597467275777...
+Detaching handle from JANUS Streaming plugin; 0x7f34dc0022b0 0x7f34c0027df0 0x7f34dc0022b0 0x7f34dc002c50
+Destroying session 2250597467275777; 0x7f34c0016560
+[janus.plugin.streaming-0x7f34c0027df0] No WebRTC media anymore
+[593822327132171] WebRTC resources freed; 0x7f34dc0022b0 0x7f34c0016560
+[593822327132171] Handle and related resources freed; 0x7f34dc0022b0 0x7f34c0016560
+Creating new session: 348521430721072; 0x7f34c003a5b0
+Creating new handle in session 348521430721072: 2999427653834414; 0x7f34c003a5b0 0x7f34dc0022b0
+Creating new session: 5643767069422151; 0x7f34dc0083d0
+Creating new handle in session 5643767069422151: 284583981888130; 0x7f34dc0083d0 0x7f34dc007860
+[33m[WARN][0m Deprecated mountpoint 'create' API: please start looking into the new one for the future
+Creating new session: 5193947546682416; 0x7f34dc009000
+Creating new handle in session 5193947546682416: 2308030430534804; 0x7f34dc009000 0x7f34dc009800
+Timeout expired for session 348521430721072...
+Detaching handle from JANUS Streaming plugin; 0x7f34dc0022b0 0x7f34c0029390 0x7f34dc0022b0 0x7f34dc002c50
+Destroying session 348521430721072; 0x7f34c003a5b0
+[janus.plugin.streaming-0x7f34c0029390] No WebRTC media anymore
+[2999427653834414] Handle and related resources freed; 0x7f34dc0022b0 0x7f34c003a5b0
+Creating new session: 3905095261393484; 0x7f34dc007af0
+Creating new handle in session 3905095261393484: 1156588813070898; 0x7f34dc007af0 0x7f34dc0022b0
+Creating new session: 3814302668587733; 0x7f34dc007b50
+Creating new handle in session 3814302668587733: 3402870161885843; 0x7f34dc007b50 0x7f34dc009f40
+[3402870161885843] Creating ICE agent (ICE Full mode, controlling)
+[3402870161885843] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f34c0027ce0] WebRTC media is now available
+[33m[WARN][0m [3402870161885843] Error resolving mDNS address (af2e10e7-ddff-4280-b7ed-b2a95d01014f.local): Error resolving “af2e10e7-ddff-4280-b7ed-b2a95d01014f.local”: Name or service not known
+[33m[WARN][0m [3402870161885843] Error resolving mDNS address (73a574a6-0ada-4b93-abe7-bdc619482dec.local): Error resolving “73a574a6-0ada-4b93-abe7-bdc619482dec.local”: Name or service not known
+[33m[WARN][0m [3402870161885843] Error resolving mDNS address (af2e10e7-ddff-4280-b7ed-b2a95d01014f.local): Error resolving “af2e10e7-ddff-4280-b7ed-b2a95d01014f.local”: Name or service not known
+[33m[WARN][0m [3402870161885843] Error resolving mDNS address (73a574a6-0ada-4b93-abe7-bdc619482dec.local): Error resolving “73a574a6-0ada-4b93-abe7-bdc619482dec.local”: Name or service not known
+Timeout expired for session 5643767069422151...
+Detaching handle from JANUS Streaming plugin; 0x7f34dc007860 0x7f34dc008110 0x7f34dc007860 0x7f34dc0081b0
+Destroying session 5643767069422151; 0x7f34dc0083d0
+[janus.plugin.streaming-0x7f34dc008110] No WebRTC media anymore
+[284583981888130] Handle and related resources freed; 0x7f34dc007860 0x7f34dc0083d0
+Stopping server, please wait...
+Ending sessions timeout watchdog...
+Sessions watchdog stopped
+Closing transport plugins:
+Stopping webserver(s)...
+JANUS REST (HTTP/HTTPS) transport plugin destroyed!
+WebSockets thread ended
+JANUS WebSockets transport plugin destroyed!
+Ending requests thread...
+Leaving Janus requests handler thread
+Destroying sessions...
+Freeing crypto resources...
+De-initializing SCTP...
+Closing plugins:
+[31m[ERR][0m [transports/janus_http.c:janus_http_send_message:1039] Can't notify event, no session object...
+JANUS Streaming plugin destroyed!
+Closing event handlers:
+Bye!
+Logger plugins folder: /usr/local/lib/janus/loggers
+[WARN] 	Couldn't access logger plugins folder...
+---------------------------------------------------
+  Starting Meetecho Janus (WebRTC Server) v1.0.1
+---------------------------------------------------
+
+Checking command line arguments...
+Debug/log level is 4
+Debug/log timestamps are disabled
+Debug/log colors are enabled
+Adding 'vmnet' to the ICE ignore list...
+Using 164.41.98.190 as local IP...
+Token based authentication disabled
+Initializing recorder code
+RTP port range: 6000 -- 6015
+Initializing ICE stuff (Full mode, ICE-TCP candidates disabled, half-trickle, IPv6 support disabled)
+ICE port range: 6000-6015
+TURN REST API backend: (disabled)
+Crypto: OpenSSL >= 1.1.0
+No cert/key specified, autogenerating some...
+Fingerprint of our certificate: 5E:BB:8F:F6:09:6E:C9:0B:01:A3:AB:22:CA:B0:E7:26:8E:FE:7D:72:F4:26:38:BE:2F:63:10:4D:13:B6:35:BF
+Event handlers support disabled
+Plugins folder: /usr/local/lib/janus/plugins
+Joining Janus requests handler thread
+Sessions watchdog started
+[33m[WARN][0m Plugin 'libjanus_videoroom.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_audiobridge.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_videocall.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_nosip.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_voicemail.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_textroom.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_recordplay.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_echotest.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_sip.so' has been disabled, skipping...
+Loading plugin 'libjanus_streaming.so'...
+JANUS Streaming plugin initialized!
+Transport plugins folder: /usr/local/lib/janus/transports
+Loading transport plugin 'libjanus_websockets.so'...
+libwebsockets logging: 0
+Websockets server started (port 8188)...
+JANUS WebSockets transport plugin initialized!
+Loading transport plugin 'libjanus_http.so'...
+WebSockets thread started
+[UTFPR] New video stream! (#0, ssrc=1919414978, index 0)
+HTTP transport timer started
+HTTP webserver started (port 8088, /janus path listener)...
+JANUS REST (HTTP/HTTPS) transport plugin initialized!
+[33m[WARN][0m Transport plugin 'libjanus_nanomsg.so' has been disabled, skipping...
+[33m[WARN][0m Transport plugin 'libjanus_pfunix.so' has been disabled, skipping...
+[33m[WARN][0m Transport plugin 'libjanus_rabbitmq.so' has been disabled, skipping...
+[UFRGS] New video stream! (#0, ssrc=3268380573, index 0)
+[UnBSec] New video stream! (#0, ssrc=2460931046, index 0)
+Creating new session: 2783477275278126; 0x7f7b70001ab0
+Creating new handle in session 2783477275278126: 5266848041469588; 0x7f7b70001ab0 0x7f7b700022b0
+[5266848041469588] Creating ICE agent (ICE Full mode, controlling)
+[5266848041469588] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b48009010] WebRTC media is now available
+[33m[WARN][0m [5266848041469588] Error resolving mDNS address (ba05bbdc-5db1-492e-b9a5-d7ab1870b94d.local): Error resolving “ba05bbdc-5db1-492e-b9a5-d7ab1870b94d.local”: Name or service not known
+[33m[WARN][0m [5266848041469588] Error resolving mDNS address (a4427d6b-f480-428b-84c3-46b4c25e4adb.local): Error resolving “a4427d6b-f480-428b-84c3-46b4c25e4adb.local”: Name or service not known
+[33m[WARN][0m [5266848041469588] Error resolving mDNS address (ba05bbdc-5db1-492e-b9a5-d7ab1870b94d.local): Error resolving “ba05bbdc-5db1-492e-b9a5-d7ab1870b94d.local”: Name or service not known
+[33m[WARN][0m [5266848041469588] Error resolving mDNS address (a4427d6b-f480-428b-84c3-46b4c25e4adb.local): Error resolving “a4427d6b-f480-428b-84c3-46b4c25e4adb.local”: Name or service not known
+Destroying session 2783477275278126; 0x7f7b70001ab0
+Detaching handle from JANUS Streaming plugin; 0x7f7b700022b0 0x7f7b48009010 0x7f7b700022b0 0x7f7b70002c50
+[janus.plugin.streaming-0x7f7b48009010] No WebRTC media anymore
+[5266848041469588] WebRTC resources freed; 0x7f7b700022b0 0x7f7b70001ab0
+[5266848041469588] Handle and related resources freed; 0x7f7b700022b0 0x7f7b70001ab0
+[UTFPR] New video stream! (#0, ssrc=1774509000, index 0)
+[UTFPR-CP] New video stream! (#0, ssrc=4172556589, index 0)
+Creating new session: 8282409769368292; 0x7f7b48015f60
+Creating new handle in session 8282409769368292: 1079527297057755; 0x7f7b48015f60 0x7f7b700022b0
+[1079527297057755] Creating ICE agent (ICE Full mode, controlling)
+[33m[WARN][0m [1079527297057755] Error resolving mDNS address (d41a81dc-6c8e-41d0-9ee5-135ff0290031.local): Error resolving “d41a81dc-6c8e-41d0-9ee5-135ff0290031.local”: Name or service not known
+Destroying session 8282409769368292; 0x7f7b48015f60
+Detaching handle from JANUS Streaming plugin; 0x7f7b700022b0 0x7f7b480279d0 0x7f7b700022b0 0x7f7b70002c50
+[janus.plugin.streaming-0x7f7b480279d0] No WebRTC media anymore
+[1079527297057755] WebRTC resources freed; 0x7f7b700022b0 0x7f7b48015f60
+[1079527297057755] Handle and related resources freed; 0x7f7b700022b0 0x7f7b48015f60
+Creating new session: 8178841900176499; 0x7f7b70001ab0
+Creating new handle in session 8178841900176499: 1369027149595625; 0x7f7b70001ab0 0x7f7b700022b0
+[1369027149595625] Creating ICE agent (ICE Full mode, controlling)
+[1369027149595625] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b48027830] WebRTC media is now available
+[33m[WARN][0m [1369027149595625] Error resolving mDNS address (f6809237-388e-4b87-b68e-965d92ee14d8.local): Error resolving “f6809237-388e-4b87-b68e-965d92ee14d8.local”: Name or service not known
+Destroying session 8178841900176499; 0x7f7b70001ab0
+Detaching handle from JANUS Streaming plugin; 0x7f7b700022b0 0x7f7b48027830 0x7f7b700022b0 0x7f7b70002c50
+[janus.plugin.streaming-0x7f7b48027830] No WebRTC media anymore
+[1369027149595625] WebRTC resources freed; 0x7f7b700022b0 0x7f7b70001ab0
+[1369027149595625] Handle and related resources freed; 0x7f7b700022b0 0x7f7b70001ab0
+Creating new session: 3035800152264641; 0x7f7b70007710
+Creating new handle in session 3035800152264641: 6398934733878011; 0x7f7b70007710 0x7f7b700022b0
+[6398934733878011] Creating ICE agent (ICE Full mode, controlling)
+[6398934733878011] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b48027ae0] WebRTC media is now available
+[33m[WARN][0m [6398934733878011] Error resolving mDNS address (c04709aa-2ed7-41eb-ae64-a71414318d1d.local): Error resolving “c04709aa-2ed7-41eb-ae64-a71414318d1d.local”: Name or service not known
+Destroying session 3035800152264641; 0x7f7b70007710
+Detaching handle from JANUS Streaming plugin; 0x7f7b700022b0 0x7f7b48027ae0 0x7f7b700022b0 0x7f7b70002c50
+[janus.plugin.streaming-0x7f7b48027ae0] No WebRTC media anymore
+[6398934733878011] WebRTC resources freed; 0x7f7b700022b0 0x7f7b70007710
+[6398934733878011] Handle and related resources freed; 0x7f7b700022b0 0x7f7b70007710
+Creating new session: 461806942749610; 0x7f7b480284c0
+Creating new handle in session 461806942749610: 3441148093104213; 0x7f7b480284c0 0x7f7b700022b0
+[3441148093104213] Creating ICE agent (ICE Full mode, controlling)
+[3441148093104213] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b48027b10] WebRTC media is now available
+[33m[WARN][0m [3441148093104213] Error resolving mDNS address (bd1d69f6-513e-47e2-b575-8a340444fc3d.local): Error resolving “bd1d69f6-513e-47e2-b575-8a340444fc3d.local”: Name or service not known
+Destroying session 461806942749610; 0x7f7b480284c0
+Detaching handle from JANUS Streaming plugin; 0x7f7b700022b0 0x7f7b48027b10 0x7f7b700022b0 0x7f7b70002c50
+[janus.plugin.streaming-0x7f7b48027b10] No WebRTC media anymore
+[3441148093104213] WebRTC resources freed; 0x7f7b700022b0 0x7f7b480284c0
+[3441148093104213] Handle and related resources freed; 0x7f7b700022b0 0x7f7b480284c0
+Creating new session: 6218199604483289; 0x7f7b48027ab0
+Creating new handle in session 6218199604483289: 5029668977748391; 0x7f7b48027ab0 0x7f7b700022b0
+[5029668977748391] Creating ICE agent (ICE Full mode, controlling)
+[5029668977748391] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b7000b490] WebRTC media is now available
+[33m[WARN][0m [5029668977748391] Error resolving mDNS address (87ca607b-8c2b-4ddc-b7fa-c441254a0645.local): Error resolving “87ca607b-8c2b-4ddc-b7fa-c441254a0645.local”: Name or service not known
+Destroying session 6218199604483289; 0x7f7b48027ab0
+Detaching handle from JANUS Streaming plugin; 0x7f7b700022b0 0x7f7b7000b490 0x7f7b700022b0 0x7f7b70001ab0
+[janus.plugin.streaming-0x7f7b7000b490] No WebRTC media anymore
+[5029668977748391] WebRTC resources freed; 0x7f7b700022b0 0x7f7b48027ab0
+[5029668977748391] Handle and related resources freed; 0x7f7b700022b0 0x7f7b48027ab0
+[UTFPR-CP] New video stream! (#0, ssrc=2475022584, index 0)
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+Creating new session: 4021678559780179; 0x7f7b48020070
+Creating new handle in session 4021678559780179: 7547876328343972; 0x7f7b48020070 0x7f7b700022b0
+[7547876328343972] Creating ICE agent (ICE Full mode, controlling)
+[7547876328343972] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b48016080] WebRTC media is now available
+[33m[WARN][0m [7547876328343972] Error resolving mDNS address (66d6f3c6-ec5c-455b-b6e2-ea673f40dadd.local): Error resolving “66d6f3c6-ec5c-455b-b6e2-ea673f40dadd.local”: Name or service not known
+[33m[WARN][0m [7547876328343972] Error resolving mDNS address (4f8e58a8-0a94-4a8a-bd9b-c2c1e3e5eefd.local): Error resolving “4f8e58a8-0a94-4a8a-bd9b-c2c1e3e5eefd.local”: Name or service not known
+Destroying session 4021678559780179; 0x7f7b48020070
+Detaching handle from JANUS Streaming plugin; 0x7f7b700022b0 0x7f7b48016080 0x7f7b700022b0 0x7f7b70001ab0
+[janus.plugin.streaming-0x7f7b48016080] No WebRTC media anymore
+[7547876328343972] WebRTC resources freed; 0x7f7b700022b0 0x7f7b48020070
+[7547876328343972] Handle and related resources freed; 0x7f7b700022b0 0x7f7b48020070
+Creating new session: 1708343703041761; 0x7f7b70007770
+Creating new handle in session 1708343703041761: 7311870339966421; 0x7f7b70007770 0x7f7b7000e9c0
+[7311870339966421] Creating ICE agent (ICE Full mode, controlling)
+[7311870339966421] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b7000b490] WebRTC media is now available
+[33m[WARN][0m [7311870339966421] Error resolving mDNS address (996ecd90-e6a0-4f4f-80e2-1e58a0035446.local): Error resolving “996ecd90-e6a0-4f4f-80e2-1e58a0035446.local”: Name or service not known
+[33m[WARN][0m [7311870339966421] Error resolving mDNS address (beb36fc4-a342-4017-b139-7044fc13de67.local): Error resolving “beb36fc4-a342-4017-b139-7044fc13de67.local”: Name or service not known
+Destroying session 1708343703041761; 0x7f7b70007770
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000e9c0 0x7f7b7000b490 0x7f7b7000e9c0 0x7f7b70001ab0
+[janus.plugin.streaming-0x7f7b7000b490] No WebRTC media anymore
+[7311870339966421] WebRTC resources freed; 0x7f7b7000e9c0 0x7f7b70007770
+[7311870339966421] Handle and related resources freed; 0x7f7b7000e9c0 0x7f7b70007770
+Creating new session: 5949466902305185; 0x7f7b48015fe0
+Creating new handle in session 5949466902305185: 4706988888786368; 0x7f7b48015fe0 0x7f7b7000e9c0
+[4706988888786368] Creating ICE agent (ICE Full mode, controlling)
+[4706988888786368] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b7000e970] WebRTC media is now available
+[33m[WARN][0m [4706988888786368] Error resolving mDNS address (08f16377-6e4f-4f19-9622-35216a11516a.local): Error resolving “08f16377-6e4f-4f19-9622-35216a11516a.local”: Name or service not known
+[33m[WARN][0m [4706988888786368] Error resolving mDNS address (78a07225-0177-415b-a93b-2003f741f6e6.local): Error resolving “78a07225-0177-415b-a93b-2003f741f6e6.local”: Name or service not known
+Destroying session 5949466902305185; 0x7f7b48015fe0
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000e9c0 0x7f7b7000e970 0x7f7b7000e9c0 0x7f7b70001ab0
+[janus.plugin.streaming-0x7f7b7000e970] No WebRTC media anymore
+[4706988888786368] WebRTC resources freed; 0x7f7b7000e9c0 0x7f7b48015fe0
+[4706988888786368] Handle and related resources freed; 0x7f7b7000e9c0 0x7f7b48015fe0
+Creating new session: 4299837569194979; 0x7f7b48014a20
+Creating new handle in session 4299837569194979: 6426959730022915; 0x7f7b48014a20 0x7f7b7000e9c0
+[6426959730022915] Creating ICE agent (ICE Full mode, controlling)
+[6426959730022915] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b7000b490] WebRTC media is now available
+[33m[WARN][0m [6426959730022915] Error resolving mDNS address (1fe59ffa-3bc2-4137-b56d-57a442b9f5ae.local): Error resolving “1fe59ffa-3bc2-4137-b56d-57a442b9f5ae.local”: Name or service not known
+[33m[WARN][0m [6426959730022915] Error resolving mDNS address (66215490-2a24-43a7-8d9f-86202a7a0c61.local): Error resolving “66215490-2a24-43a7-8d9f-86202a7a0c61.local”: Name or service not known
+Destroying session 4299837569194979; 0x7f7b48014a20
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000e9c0 0x7f7b7000b490 0x7f7b7000e9c0 0x7f7b70001ab0
+[janus.plugin.streaming-0x7f7b7000b490] No WebRTC media anymore
+[6426959730022915] WebRTC resources freed; 0x7f7b7000e9c0 0x7f7b48014a20
+[6426959730022915] Handle and related resources freed; 0x7f7b7000e9c0 0x7f7b48014a20
+Creating new session: 3667581773057236; 0x7f7b48021210
+Creating new handle in session 3667581773057236: 4882594671832871; 0x7f7b48021210 0x7f7b7000e9c0
+[4882594671832871] Creating ICE agent (ICE Full mode, controlling)
+[4882594671832871] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b48020a40] WebRTC media is now available
+[33m[WARN][0m [4882594671832871] Error resolving mDNS address (b19f587c-2e83-4fc9-bf5f-400379c2b600.local): Error resolving “b19f587c-2e83-4fc9-bf5f-400379c2b600.local”: Name or service not known
+[33m[WARN][0m [4882594671832871] Error resolving mDNS address (9bee0089-e881-4f07-b02c-e0ee1c437b46.local): Error resolving “9bee0089-e881-4f07-b02c-e0ee1c437b46.local”: Name or service not known
+Destroying session 3667581773057236; 0x7f7b48021210
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000e9c0 0x7f7b48020a40 0x7f7b7000e9c0 0x7f7b70001ab0
+[janus.plugin.streaming-0x7f7b48020a40] No WebRTC media anymore
+[4882594671832871] WebRTC resources freed; 0x7f7b7000e9c0 0x7f7b48021210
+[4882594671832871] Handle and related resources freed; 0x7f7b7000e9c0 0x7f7b48021210
+Creating new session: 8344094461298128; 0x7f7b48015fe0
+Creating new handle in session 8344094461298128: 7801640945830154; 0x7f7b48015fe0 0x7f7b7000e9c0
+[7801640945830154] Creating ICE agent (ICE Full mode, controlling)
+[7801640945830154] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b48020940] WebRTC media is now available
+[33m[WARN][0m [7801640945830154] Error resolving mDNS address (7164e6af-5941-4da1-966d-b2d04fd12fd3.local): Error resolving “7164e6af-5941-4da1-966d-b2d04fd12fd3.local”: Name or service not known
+[33m[WARN][0m [7801640945830154] Error resolving mDNS address (e72127ea-7a76-4fd8-aa6b-b2b2fed4dd09.local): Error resolving “e72127ea-7a76-4fd8-aa6b-b2b2fed4dd09.local”: Name or service not known
+Destroying session 8344094461298128; 0x7f7b48015fe0
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000e9c0 0x7f7b48020940 0x7f7b7000e9c0 0x7f7b70001ab0
+[janus.plugin.streaming-0x7f7b48020940] No WebRTC media anymore
+[7801640945830154] WebRTC resources freed; 0x7f7b7000e9c0 0x7f7b48015fe0
+[7801640945830154] Handle and related resources freed; 0x7f7b7000e9c0 0x7f7b48015fe0
+Creating new session: 6270836624847815; 0x7f7b48022700
+Creating new handle in session 6270836624847815: 1321354126293426; 0x7f7b48022700 0x7f7b7000e9c0
+[1321354126293426] Creating ICE agent (ICE Full mode, controlling)
+[1321354126293426] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b70004600] WebRTC media is now available
+[33m[WARN][0m [1321354126293426] Error resolving mDNS address (ed236a0c-f8ce-4647-b3c5-dc1ef91edaa1.local): Error resolving “ed236a0c-f8ce-4647-b3c5-dc1ef91edaa1.local”: Name or service not known
+[33m[WARN][0m [1321354126293426] Error resolving mDNS address (222ba43a-c807-4bc5-8de6-e2330d132a94.local): Error resolving “222ba43a-c807-4bc5-8de6-e2330d132a94.local”: Name or service not known
+Destroying session 6270836624847815; 0x7f7b48022700
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000e9c0 0x7f7b70004600 0x7f7b7000e9c0 0x7f7b70001ab0
+[janus.plugin.streaming-0x7f7b70004600] No WebRTC media anymore
+[1321354126293426] WebRTC resources freed; 0x7f7b7000e9c0 0x7f7b48022700
+[1321354126293426] Handle and related resources freed; 0x7f7b7000e9c0 0x7f7b48022700
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+Creating new session: 8082974681502882; 0x7f7b48027970
+Creating new handle in session 8082974681502882: 4607032154061287; 0x7f7b48027970 0x7f7b70006200
+[4607032154061287] Creating ICE agent (ICE Full mode, controlling)
+[4607032154061287] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b48015fe0] WebRTC media is now available
+[33m[WARN][0m [4607032154061287] Error resolving mDNS address (e99b0a89-6ae2-4b2d-a172-3c5d96510397.local): Error resolving “e99b0a89-6ae2-4b2d-a172-3c5d96510397.local”: Name or service not known
+[33m[WARN][0m [4607032154061287] Error resolving mDNS address (e34fba4c-1547-4669-b470-9403a8213b44.local): Error resolving “e34fba4c-1547-4669-b470-9403a8213b44.local”: Name or service not known
+[33m[WARN][0m [4607032154061287] Error resolving mDNS address (e34fba4c-1547-4669-b470-9403a8213b44.local): Error resolving “e34fba4c-1547-4669-b470-9403a8213b44.local”: Name or service not known
+[33m[WARN][0m [4607032154061287] Error resolving mDNS address (e99b0a89-6ae2-4b2d-a172-3c5d96510397.local): Error resolving “e99b0a89-6ae2-4b2d-a172-3c5d96510397.local”: Name or service not known
+Destroying session 8082974681502882; 0x7f7b48027970
+Detaching handle from JANUS Streaming plugin; 0x7f7b70006200 0x7f7b48015fe0 0x7f7b70006200 0x7f7b70001ab0
+[janus.plugin.streaming-0x7f7b48015fe0] No WebRTC media anymore
+[4607032154061287] WebRTC resources freed; 0x7f7b70006200 0x7f7b48027970
+[4607032154061287] Handle and related resources freed; 0x7f7b70006200 0x7f7b48027970
+Creating new session: 3632233803813764; 0x7f7b48014a80
+Creating new handle in session 3632233803813764: 5089645834052395; 0x7f7b48014a80 0x7f7b70006200
+[5089645834052395] Creating ICE agent (ICE Full mode, controlling)
+[5089645834052395] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b48016010] WebRTC media is now available
+[33m[WARN][0m [5089645834052395] Error resolving mDNS address (669985f9-0f09-4da3-bbb0-c234c30a99fd.local): Error resolving “669985f9-0f09-4da3-bbb0-c234c30a99fd.local”: Name or service not known
+[33m[WARN][0m [5089645834052395] Error resolving mDNS address (27e56864-7639-4545-8529-18b68bd0edf3.local): Error resolving “27e56864-7639-4545-8529-18b68bd0edf3.local”: Name or service not known
+[33m[WARN][0m [5089645834052395] Error resolving mDNS address (669985f9-0f09-4da3-bbb0-c234c30a99fd.local): Error resolving “669985f9-0f09-4da3-bbb0-c234c30a99fd.local”: Name or service not known
+[33m[WARN][0m [5089645834052395] Error resolving mDNS address (27e56864-7639-4545-8529-18b68bd0edf3.local): Error resolving “27e56864-7639-4545-8529-18b68bd0edf3.local”: Name or service not known
+Destroying session 3632233803813764; 0x7f7b48014a80
+Detaching handle from JANUS Streaming plugin; 0x7f7b70006200 0x7f7b48016010 0x7f7b70006200 0x7f7b70004780
+[janus.plugin.streaming-0x7f7b48016010] No WebRTC media anymore
+[5089645834052395] WebRTC resources freed; 0x7f7b70006200 0x7f7b48014a80
+[5089645834052395] Handle and related resources freed; 0x7f7b70006200 0x7f7b48014a80
+Creating new session: 132083181969839; 0x7f7b4800c5c0
+Creating new handle in session 132083181969839: 5821542302385943; 0x7f7b4800c5c0 0x7f7b70006200
+[5821542302385943] Creating ICE agent (ICE Full mode, controlling)
+[5821542302385943] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b70013890] WebRTC media is now available
+[33m[WARN][0m [5821542302385943] Error resolving mDNS address (a8e405df-f9a1-405b-b7d9-97827aa3602b.local): Error resolving “a8e405df-f9a1-405b-b7d9-97827aa3602b.local”: Name or service not known
+[33m[WARN][0m [5821542302385943] Error resolving mDNS address (8019b63e-bf66-4563-a932-2d5671f70fea.local): Error resolving “8019b63e-bf66-4563-a932-2d5671f70fea.local”: Name or service not known
+[33m[WARN][0m [5821542302385943] Error resolving mDNS address (a8e405df-f9a1-405b-b7d9-97827aa3602b.local): Error resolving “a8e405df-f9a1-405b-b7d9-97827aa3602b.local”: Name or service not known
+[33m[WARN][0m [5821542302385943] Error resolving mDNS address (8019b63e-bf66-4563-a932-2d5671f70fea.local): Error resolving “8019b63e-bf66-4563-a932-2d5671f70fea.local”: Name or service not known
+Destroying session 132083181969839; 0x7f7b4800c5c0
+Detaching handle from JANUS Streaming plugin; 0x7f7b70006200 0x7f7b70013890 0x7f7b70006200 0x7f7b7000c120
+[janus.plugin.streaming-0x7f7b70013890] No WebRTC media anymore
+[5821542302385943] WebRTC resources freed; 0x7f7b70006200 0x7f7b4800c5c0
+[5821542302385943] Handle and related resources freed; 0x7f7b70006200 0x7f7b4800c5c0
+Creating new session: 8972524495387549; 0x7f7b48021250
+Creating new handle in session 8972524495387549: 6884851203511622; 0x7f7b48021250 0x7f7b70006200
+[6884851203511622] Creating ICE agent (ICE Full mode, controlling)
+[6884851203511622] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b700137b0] WebRTC media is now available
+[33m[WARN][0m [6884851203511622] Error resolving mDNS address (73c72751-7d96-4d0b-aa98-8b17c528fec2.local): Error resolving “73c72751-7d96-4d0b-aa98-8b17c528fec2.local”: Name or service not known
+[33m[WARN][0m [6884851203511622] Error resolving mDNS address (d4bbef2d-1bd2-44d2-8868-7e4732cfe957.local): Error resolving “d4bbef2d-1bd2-44d2-8868-7e4732cfe957.local”: Name or service not known
+[33m[WARN][0m [6884851203511622] Error resolving mDNS address (73c72751-7d96-4d0b-aa98-8b17c528fec2.local): Error resolving “73c72751-7d96-4d0b-aa98-8b17c528fec2.local”: Name or service not known
+[33m[WARN][0m [6884851203511622] Error resolving mDNS address (d4bbef2d-1bd2-44d2-8868-7e4732cfe957.local): Error resolving “d4bbef2d-1bd2-44d2-8868-7e4732cfe957.local”: Name or service not known
+Destroying session 8972524495387549; 0x7f7b48021250
+Detaching handle from JANUS Streaming plugin; 0x7f7b70006200 0x7f7b700137b0 0x7f7b70006200 0x7f7b70001ab0
+[janus.plugin.streaming-0x7f7b700137b0] No WebRTC media anymore
+[6884851203511622] WebRTC resources freed; 0x7f7b70006200 0x7f7b48021250
+[6884851203511622] Handle and related resources freed; 0x7f7b70006200 0x7f7b48021250
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /favicon.ico
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+Creating new session: 4534052483519624; 0x7f7b480149b0
+Creating new handle in session 4534052483519624: 8811687737608628; 0x7f7b480149b0 0x7f7b70006200
+[8811687737608628] Creating ICE agent (ICE Full mode, controlling)
+[8811687737608628] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b480284f0] WebRTC media is now available
+[33m[WARN][0m [8811687737608628] Error resolving mDNS address (c947ad80-597d-4308-8a38-8aff0bce69ff.local): Error resolving “c947ad80-597d-4308-8a38-8aff0bce69ff.local”: Name or service not known
+[33m[WARN][0m [8811687737608628] Error resolving mDNS address (a830a758-48ff-4d05-a00e-4ad521571167.local): Error resolving “a830a758-48ff-4d05-a00e-4ad521571167.local”: Name or service not known
+[33m[WARN][0m [8811687737608628] Error resolving mDNS address (c947ad80-597d-4308-8a38-8aff0bce69ff.local): Error resolving “c947ad80-597d-4308-8a38-8aff0bce69ff.local”: Name or service not known
+[33m[WARN][0m [8811687737608628] Error resolving mDNS address (a830a758-48ff-4d05-a00e-4ad521571167.local): Error resolving “a830a758-48ff-4d05-a00e-4ad521571167.local”: Name or service not known
+Destroying session 4534052483519624; 0x7f7b480149b0
+Detaching handle from JANUS Streaming plugin; 0x7f7b70006200 0x7f7b480284f0 0x7f7b70006200 0x7f7b70004780
+[janus.plugin.streaming-0x7f7b480284f0] No WebRTC media anymore
+[8811687737608628] WebRTC resources freed; 0x7f7b70006200 0x7f7b480149b0
+[8811687737608628] Handle and related resources freed; 0x7f7b70006200 0x7f7b480149b0
+Creating new session: 1479381488293851; 0x7f7b48022f50
+Creating new handle in session 1479381488293851: 1494845807316060; 0x7f7b48022f50 0x7f7b70006200
+[1494845807316060] Creating ICE agent (ICE Full mode, controlling)
+[1494845807316060] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b48016a80] WebRTC media is now available
+[33m[WARN][0m [1494845807316060] Error resolving mDNS address (16481646-c9d8-4ba5-b317-d48667e29f24.local): Error resolving “16481646-c9d8-4ba5-b317-d48667e29f24.local”: Name or service not known
+[33m[WARN][0m [1494845807316060] Error resolving mDNS address (16481646-c9d8-4ba5-b317-d48667e29f24.local): Error resolving “16481646-c9d8-4ba5-b317-d48667e29f24.local”: Name or service not known
+[33m[WARN][0m [1494845807316060] Error resolving mDNS address (ad3c804f-a47e-4409-8042-dfc404096a49.local): Error resolving “ad3c804f-a47e-4409-8042-dfc404096a49.local”: Name or service not known
+[33m[WARN][0m [1494845807316060] Error resolving mDNS address (ad3c804f-a47e-4409-8042-dfc404096a49.local): Error resolving “ad3c804f-a47e-4409-8042-dfc404096a49.local”: Name or service not known
+Destroying session 1479381488293851; 0x7f7b48022f50
+Detaching handle from JANUS Streaming plugin; 0x7f7b70006200 0x7f7b48016a80 0x7f7b70006200 0x7f7b7000c120
+[janus.plugin.streaming-0x7f7b48016a80] No WebRTC media anymore
+[1494845807316060] WebRTC resources freed; 0x7f7b70006200 0x7f7b48022f50
+[1494845807316060] Handle and related resources freed; 0x7f7b70006200 0x7f7b48022f50
+Creating new session: 8490711339818866; 0x7f7b4801fcf0
+Creating new handle in session 8490711339818866: 7472730037018724; 0x7f7b4801fcf0 0x7f7b70006200
+[7472730037018724] Creating ICE agent (ICE Full mode, controlling)
+[7472730037018724] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b70004650] WebRTC media is now available
+[33m[WARN][0m [7472730037018724] Error resolving mDNS address (f60853de-e7ca-40aa-aff9-ecd190695ef0.local): Error resolving “f60853de-e7ca-40aa-aff9-ecd190695ef0.local”: Name or service not known
+[33m[WARN][0m [7472730037018724] Error resolving mDNS address (f60853de-e7ca-40aa-aff9-ecd190695ef0.local): Error resolving “f60853de-e7ca-40aa-aff9-ecd190695ef0.local”: Name or service not known
+[33m[WARN][0m [7472730037018724] Error resolving mDNS address (e0d09e1a-14d7-4c50-bfb4-bff8758755db.local): Error resolving “e0d09e1a-14d7-4c50-bfb4-bff8758755db.local”: Name or service not known
+[33m[WARN][0m [7472730037018724] Error resolving mDNS address (e0d09e1a-14d7-4c50-bfb4-bff8758755db.local): Error resolving “e0d09e1a-14d7-4c50-bfb4-bff8758755db.local”: Name or service not known
+Destroying session 8490711339818866; 0x7f7b4801fcf0
+Detaching handle from JANUS Streaming plugin; 0x7f7b70006200 0x7f7b70004650 0x7f7b70006200 0x7f7b70001ab0
+[janus.plugin.streaming-0x7f7b70004650] No WebRTC media anymore
+[7472730037018724] WebRTC resources freed; 0x7f7b70006200 0x7f7b4801fcf0
+[7472730037018724] Handle and related resources freed; 0x7f7b70006200 0x7f7b4801fcf0
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+Creating new session: 3999121052057888; 0x7f7b48022cd0
+Creating new handle in session 3999121052057888: 5537875748076322; 0x7f7b48022cd0 0x7f7b70006200
+[5537875748076322] Creating ICE agent (ICE Full mode, controlling)
+[5537875748076322] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b7000eba0] WebRTC media is now available
+[33m[WARN][0m [5537875748076322] Error resolving mDNS address (21993fa5-8b23-4680-8c57-8773b4aa398d.local): Error resolving “21993fa5-8b23-4680-8c57-8773b4aa398d.local”: Name or service not known
+[33m[WARN][0m [5537875748076322] Error resolving mDNS address (9cf6af9c-377b-4942-82f5-b127acaab8b9.local): Error resolving “9cf6af9c-377b-4942-82f5-b127acaab8b9.local”: Name or service not known
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+Timeout expired for session 3999121052057888...
+Detaching handle from JANUS Streaming plugin; 0x7f7b70006200 0x7f7b7000eba0 0x7f7b70006200 0x7f7b70004f80
+Destroying session 3999121052057888; 0x7f7b48022cd0
+[janus.plugin.streaming-0x7f7b7000eba0] No WebRTC media anymore
+[5537875748076322] WebRTC resources freed; 0x7f7b70006200 0x7f7b48022cd0
+[5537875748076322] Handle and related resources freed; 0x7f7b70006200 0x7f7b48022cd0
+Creating new session: 6324592999659451; 0x7f7b7000a6d0
+Creating new handle in session 6324592999659451: 5581240915230656; 0x7f7b7000a6d0 0x7f7b70006200
+[5581240915230656] Creating ICE agent (ICE Full mode, controlling)
+[5581240915230656] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b70013760] WebRTC media is now available
+[33m[WARN][0m [5581240915230656] Error resolving mDNS address (f6545e9f-b13e-4a8b-9c61-083f151d902f.local): Error resolving “f6545e9f-b13e-4a8b-9c61-083f151d902f.local”: Name or service not known
+[33m[WARN][0m [5581240915230656] Error resolving mDNS address (1c6af38b-f53f-4fdb-aac6-468e1c878aa0.local): Error resolving “1c6af38b-f53f-4fdb-aac6-468e1c878aa0.local”: Name or service not known
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+Timeout expired for session 6324592999659451...
+Detaching handle from JANUS Streaming plugin; 0x7f7b70006200 0x7f7b70013760 0x7f7b70006200 0x7f7b70004780
+Destroying session 6324592999659451; 0x7f7b7000a6d0
+[janus.plugin.streaming-0x7f7b70013760] No WebRTC media anymore
+[5581240915230656] WebRTC resources freed; 0x7f7b70006200 0x7f7b7000a6d0
+[5581240915230656] Handle and related resources freed; 0x7f7b70006200 0x7f7b7000a6d0
+Creating new session: 3948057825303714; 0x7f7b48015170
+Creating new handle in session 3948057825303714: 7021693137638698; 0x7f7b48015170 0x7f7b70006200
+[7021693137638698] Creating ICE agent (ICE Full mode, controlling)
+Destroying session 3948057825303714; 0x7f7b48015170
+Detaching handle from JANUS Streaming plugin; 0x7f7b70006200 0x7f7b48016080 0x7f7b70006200 0x7f7b70004f80
+[janus.plugin.streaming-0x7f7b48016080] No WebRTC media anymore
+[7021693137638698] WebRTC resources freed; 0x7f7b70006200 0x7f7b48015170
+[33m[WARN][0m [7021693137638698] Error resolving mDNS address (eece367f-70cc-45fb-89f2-afe11d791baf.local): Error resolving “eece367f-70cc-45fb-89f2-afe11d791baf.local”: Name or service not known
+[33m[WARN][0m [7021693137638698] Error resolving mDNS address (2cc4afcf-cf43-4797-b504-af55d56de514.local): Error resolving “2cc4afcf-cf43-4797-b504-af55d56de514.local”: Name or service not known
+[7021693137638698] Handle and related resources freed; 0x7f7b70006200 0x7f7b48015170
+Creating new session: 3345109912541300; 0x7f7b7000a6d0
+Creating new handle in session 3345109912541300: 4526084802130410; 0x7f7b7000a6d0 0x7f7b7000f160
+[4526084802130410] Creating ICE agent (ICE Full mode, controlling)
+[4526084802130410] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b70013760] WebRTC media is now available
+[33m[WARN][0m [4526084802130410] Error resolving mDNS address (095cda9d-e9c5-40c7-aece-d5eb0a99c5b4.local): Error resolving “095cda9d-e9c5-40c7-aece-d5eb0a99c5b4.local”: Name or service not known
+[33m[WARN][0m [4526084802130410] Error resolving mDNS address (b90dd5e1-83b3-42d9-9e41-7b89ae89a47b.local): Error resolving “b90dd5e1-83b3-42d9-9e41-7b89ae89a47b.local”: Name or service not known
+Creating new session: 1199645989957574; 0x7f7b48023840
+Creating new handle in session 1199645989957574: 452526814041868; 0x7f7b48023840 0x7f7b7000e4f0
+[452526814041868] Creating ICE agent (ICE Full mode, controlling)
+[452526814041868] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b48023a70] WebRTC media is now available
+[33m[WARN][0m [452526814041868] Error resolving mDNS address (eea4dfcc-4d83-4661-a8a6-979ac8e8505c.local): Error resolving “eea4dfcc-4d83-4661-a8a6-979ac8e8505c.local”: Name or service not known
+Destroying session 1199645989957574; 0x7f7b48023840
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000e4f0 0x7f7b48023a70 0x7f7b7000e4f0 0x7f7b7000e630
+[janus.plugin.streaming-0x7f7b48023a70] No WebRTC media anymore
+[452526814041868] WebRTC resources freed; 0x7f7b7000e4f0 0x7f7b48023840
+[452526814041868] Handle and related resources freed; 0x7f7b7000e4f0 0x7f7b48023840
+Creating new session: 43485806540915; 0x7f7b700077a0
+Creating new handle in session 43485806540915: 6956510675242183; 0x7f7b700077a0 0x7f7b7000e4f0
+[6956510675242183] Creating ICE agent (ICE Full mode, controlling)
+[6956510675242183] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b48027a00] WebRTC media is now available
+[33m[WARN][0m [6956510675242183] Error resolving mDNS address (0f4d5bd4-534b-4556-bed2-d56b192aa9fe.local): Error resolving “0f4d5bd4-534b-4556-bed2-d56b192aa9fe.local”: Name or service not known
+Creating new session: 6417591828973116; 0x7f7b7000f950
+Creating new handle in session 6417591828973116: 8077502803927591; 0x7f7b7000f950 0x7f7b7001f620
+[8077502803927591] Creating ICE agent (ICE Full mode, controlling)
+[33m[WARN][0m [8077502803927591] Error resolving mDNS address (128bd7f0-29e2-41eb-91d2-f2bc0544e5bb.local): Error resolving “128bd7f0-29e2-41eb-91d2-f2bc0544e5bb.local”: Name or service not known
+[8077502803927591] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b70013350] WebRTC media is now available
+Destroying session 6417591828973116; 0x7f7b7000f950
+Detaching handle from JANUS Streaming plugin; 0x7f7b7001f620 0x7f7b70013350 0x7f7b7001f620 0x7f7b7001f760
+[janus.plugin.streaming-0x7f7b70013350] No WebRTC media anymore
+[8077502803927591] WebRTC resources freed; 0x7f7b7001f620 0x7f7b7000f950
+[8077502803927591] Handle and related resources freed; 0x7f7b7001f620 0x7f7b7000f950
+Creating new session: 5655061727199540; 0x7f7b48028560
+Creating new handle in session 5655061727199540: 2723823415448967; 0x7f7b48028560 0x7f7b7001f620
+[2723823415448967] Creating ICE agent (ICE Full mode, controlling)
+[2723823415448967] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b48016f10] WebRTC media is now available
+[33m[WARN][0m [2723823415448967] Error resolving mDNS address (454f0598-321f-4b53-8d2c-acc7c41a449b.local): Error resolving “454f0598-321f-4b53-8d2c-acc7c41a449b.local”: Name or service not known
+Destroying session 3345109912541300; 0x7f7b7000a6d0
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000f160 0x7f7b70013760 0x7f7b7000f160 0x7f7b70001ab0
+[janus.plugin.streaming-0x7f7b70013760] No WebRTC media anymore
+[4526084802130410] WebRTC resources freed; 0x7f7b7000f160 0x7f7b7000a6d0
+[4526084802130410] Handle and related resources freed; 0x7f7b7000f160 0x7f7b7000a6d0
+Creating new session: 7213353275174175; 0x7f7b7000fdd0
+Creating new handle in session 7213353275174175: 1779521521940455; 0x7f7b7000fdd0 0x7f7b70013520
+[1779521521940455] Creating ICE agent (ICE Full mode, controlling)
+[1779521521940455] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b48023f40] WebRTC media is now available
+[33m[WARN][0m [1779521521940455] Error resolving mDNS address (387b5031-4309-44df-8555-60a8c5c0d8b3.local): Error resolving “387b5031-4309-44df-8555-60a8c5c0d8b3.local”: Name or service not known
+[33m[WARN][0m [1779521521940455] Error resolving mDNS address (e20ddffd-c567-4bc3-b6dd-76351196af73.local): Error resolving “e20ddffd-c567-4bc3-b6dd-76351196af73.local”: Name or service not known
+Destroying session 5655061727199540; 0x7f7b48028560
+Detaching handle from JANUS Streaming plugin; 0x7f7b7001f620 0x7f7b48016f10 0x7f7b7001f620 0x7f7b7001f8a0
+[janus.plugin.streaming-0x7f7b48016f10] No WebRTC media anymore
+[2723823415448967] WebRTC resources freed; 0x7f7b7001f620 0x7f7b48028560
+[2723823415448967] Handle and related resources freed; 0x7f7b7001f620 0x7f7b48028560
+Creating new session: 909954574941900; 0x7f7b700136b0
+Creating new handle in session 909954574941900: 2164341385567206; 0x7f7b700136b0 0x7f7b7001f620
+[2164341385567206] Creating ICE agent (ICE Full mode, controlling)
+[2164341385567206] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b48016930] WebRTC media is now available
+[33m[WARN][0m [2164341385567206] Error resolving mDNS address (ffb04a58-c759-4dbc-b116-f86497ff2994.local): Error resolving “ffb04a58-c759-4dbc-b116-f86497ff2994.local”: Name or service not known
+Destroying session 909954574941900; 0x7f7b700136b0
+Detaching handle from JANUS Streaming plugin; 0x7f7b7001f620 0x7f7b48016930 0x7f7b7001f620 0x7f7b7001a680
+[janus.plugin.streaming-0x7f7b48016930] No WebRTC media anymore
+[2164341385567206] WebRTC resources freed; 0x7f7b7001f620 0x7f7b700136b0
+[2164341385567206] Handle and related resources freed; 0x7f7b7001f620 0x7f7b700136b0
+Creating new session: 7910926712993671; 0x7f7b7000e440
+Creating new handle in session 7910926712993671: 6346700500356112; 0x7f7b7000e440 0x7f7b7001f620
+[6346700500356112] Creating ICE agent (ICE Full mode, controlling)
+[6346700500356112] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b7001ff80] WebRTC media is now available
+[33m[WARN][0m [6346700500356112] Error resolving mDNS address (460ec370-6884-4b6b-9675-113762ab3a95.local): Error resolving “460ec370-6884-4b6b-9675-113762ab3a95.local”: Name or service not known
+[UTFPR-CP] New video stream! (#0, ssrc=1543732695, index 0)
+[UTFPR-CP] New video stream! (#0, ssrc=3083715207, index 0)
+[UTFPR-CP] New video stream! (#0, ssrc=1534644966, index 0)
+Destroying session 7910926712993671; 0x7f7b7000e440
+Detaching handle from JANUS Streaming plugin; 0x7f7b7001f620 0x7f7b7001ff80 0x7f7b7001f620 0x7f7b7000e0c0
+[janus.plugin.streaming-0x7f7b7001ff80] No WebRTC media anymore
+[6346700500356112] WebRTC resources freed; 0x7f7b7001f620 0x7f7b7000e440
+[6346700500356112] Handle and related resources freed; 0x7f7b7001f620 0x7f7b7000e440
+Creating new session: 6743906382550136; 0x7f7b7000e440
+Creating new handle in session 6743906382550136: 1361207785041558; 0x7f7b7000e440 0x7f7b700102d0
+[1361207785041558] Creating ICE agent (ICE Full mode, controlling)
+[1361207785041558] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b70003a00] WebRTC media is now available
+[33m[WARN][0m [1361207785041558] Error resolving mDNS address (21a6f42e-e92f-48ee-8aa9-7d7349fb06fd.local): Error resolving “21a6f42e-e92f-48ee-8aa9-7d7349fb06fd.local”: Name or service not known
+Destroying session 6743906382550136; 0x7f7b7000e440
+Detaching handle from JANUS Streaming plugin; 0x7f7b700102d0 0x7f7b70003a00 0x7f7b700102d0 0x7f7b7001f8a0
+[janus.plugin.streaming-0x7f7b70003a00] No WebRTC media anymore
+[1361207785041558] WebRTC resources freed; 0x7f7b700102d0 0x7f7b7000e440
+[1361207785041558] Handle and related resources freed; 0x7f7b700102d0 0x7f7b7000e440
+Destroying session 7213353275174175; 0x7f7b7000fdd0
+Detaching handle from JANUS Streaming plugin; 0x7f7b70013520 0x7f7b48023f40 0x7f7b70013520 0x7f7b70004780
+[janus.plugin.streaming-0x7f7b48023f40] No WebRTC media anymore
+[1779521521940455] WebRTC resources freed; 0x7f7b70013520 0x7f7b7000fdd0
+[1779521521940455] Handle and related resources freed; 0x7f7b70013520 0x7f7b7000fdd0
+Creating new session: 7603360233532330; 0x7f7b480257c0
+Creating new handle in session 7603360233532330: 7028725869478989; 0x7f7b480257c0 0x7f7b700102d0
+[7028725869478989] Creating ICE agent (ICE Full mode, controlling)
+[7028725869478989] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b7000e1e0] WebRTC media is now available
+Destroying session 7603360233532330; 0x7f7b480257c0
+Detaching handle from JANUS Streaming plugin; 0x7f7b700102d0 0x7f7b7000e1e0 0x7f7b700102d0 0x7f7b7001f760
+[janus.plugin.streaming-0x7f7b7000e1e0] No WebRTC media anymore
+[7028725869478989] WebRTC resources freed; 0x7f7b700102d0 0x7f7b480257c0
+[33m[WARN][0m [7028725869478989] Error resolving mDNS address (93455ff5-8f9e-4163-9307-607c85fe0485.local): Error resolving “93455ff5-8f9e-4163-9307-607c85fe0485.local”: Name or service not known
+[33m[WARN][0m [7028725869478989] Error resolving mDNS address (831a447b-9abf-429e-9a10-8b819e307b7a.local): Error resolving “831a447b-9abf-429e-9a10-8b819e307b7a.local”: Name or service not known
+[7028725869478989] Handle and related resources freed; 0x7f7b700102d0 0x7f7b480257c0
+Creating new session: 4455083929854994; 0x7f7b7000fdd0
+Creating new handle in session 4455083929854994: 1952122061269465; 0x7f7b7000fdd0 0x7f7b70004600
+[1952122061269465] Creating ICE agent (ICE Full mode, controlling)
+[1952122061269465] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b48014da0] WebRTC media is now available
+[33m[WARN][0m [1952122061269465] Error resolving mDNS address (02dddb8c-d461-4b9a-b1d9-172530361cda.local): Error resolving “02dddb8c-d461-4b9a-b1d9-172530361cda.local”: Name or service not known
+[33m[WARN][0m [1952122061269465] Error resolving mDNS address (05aa9973-f08f-4bf1-ab2f-250c92a308aa.local): Error resolving “05aa9973-f08f-4bf1-ab2f-250c92a308aa.local”: Name or service not known
+Timeout expired for session 4455083929854994...
+Detaching handle from JANUS Streaming plugin; 0x7f7b70004600 0x7f7b48014da0 0x7f7b70004600 0x7f7b7000e2c0
+Destroying session 4455083929854994; 0x7f7b7000fdd0
+[janus.plugin.streaming-0x7f7b48014da0] No WebRTC media anymore
+[1952122061269465] WebRTC resources freed; 0x7f7b70004600 0x7f7b7000fdd0
+[1952122061269465] Handle and related resources freed; 0x7f7b70004600 0x7f7b7000fdd0
+Creating new session: 7424603231973834; 0x7f7b7000e440
+Creating new handle in session 7424603231973834: 3264828344107633; 0x7f7b7000e440 0x7f7b70004600
+[3264828344107633] Creating ICE agent (ICE Full mode, controlling)
+[3264828344107633] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b70013760] WebRTC media is now available
+[33m[WARN][0m [3264828344107633] Error resolving mDNS address (c765bd72-1b75-47a4-93b4-109263853978.local): Error resolving “c765bd72-1b75-47a4-93b4-109263853978.local”: Name or service not known
+[33m[WARN][0m [3264828344107633] Error resolving mDNS address (c765bd72-1b75-47a4-93b4-109263853978.local): Error resolving “c765bd72-1b75-47a4-93b4-109263853978.local”: Name or service not known
+Destroying session 7424603231973834; 0x7f7b7000e440
+Detaching handle from JANUS Streaming plugin; 0x7f7b70004600 0x7f7b70013760 0x7f7b70004600 0x7f7b70004f80
+[janus.plugin.streaming-0x7f7b70013760] No WebRTC media anymore
+[3264828344107633] WebRTC resources freed; 0x7f7b70004600 0x7f7b7000e440
+[3264828344107633] Handle and related resources freed; 0x7f7b70004600 0x7f7b7000e440
+Timeout expired for session 43485806540915...
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000e4f0 0x7f7b48027a00 0x7f7b7000e4f0 0x7f7b7000e770
+Destroying session 43485806540915; 0x7f7b700077a0
+[janus.plugin.streaming-0x7f7b48027a00] No WebRTC media anymore
+[6956510675242183] WebRTC resources freed; 0x7f7b7000e4f0 0x7f7b700077a0
+[6956510675242183] Handle and related resources freed; 0x7f7b7000e4f0 0x7f7b700077a0
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+Creating new session: 1141922419890867; 0x7f7b48021250
+Creating new handle in session 1141922419890867: 512106299993073; 0x7f7b48021250 0x7f7b7000c3c0
+[512106299993073] Creating ICE agent (ICE Full mode, controlling)
+[33m[WARN][0m [512106299993073] Error resolving mDNS address (599c5742-5b0a-459d-aa2a-1275ce19cad7.local): Error resolving “599c5742-5b0a-459d-aa2a-1275ce19cad7.local”: Name or service not known
+[512106299993073] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b700101f0] WebRTC media is now available
+Destroying session 1141922419890867; 0x7f7b48021250
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000c3c0 0x7f7b700101f0 0x7f7b7000c3c0 0x7f7b7000fa00
+[janus.plugin.streaming-0x7f7b700101f0] No WebRTC media anymore
+[512106299993073] WebRTC resources freed; 0x7f7b7000c3c0 0x7f7b48021250
+[512106299993073] Handle and related resources freed; 0x7f7b7000c3c0 0x7f7b48021250
+Creating new session: 8046212253773407; 0x7f7b48023840
+Creating new handle in session 8046212253773407: 7527779556622621; 0x7f7b48023840 0x7f7b7000c3c0
+[7527779556622621] Creating ICE agent (ICE Full mode, controlling)
+[33m[WARN][0m [7527779556622621] Error resolving mDNS address (688f1685-af65-4734-a07d-68126bdacfb8.local): Error resolving “688f1685-af65-4734-a07d-68126bdacfb8.local”: Name or service not known
+[7527779556622621] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b7001ff80] WebRTC media is now available
+Destroying session 8046212253773407; 0x7f7b48023840
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000c3c0 0x7f7b7001ff80 0x7f7b7000c3c0 0x7f7b7001f760
+[janus.plugin.streaming-0x7f7b7001ff80] No WebRTC media anymore
+[7527779556622621] WebRTC resources freed; 0x7f7b7000c3c0 0x7f7b48023840
+[7527779556622621] Handle and related resources freed; 0x7f7b7000c3c0 0x7f7b48023840
+Creating new session: 4389727537996598; 0x7f7b7000bfe0
+Creating new handle in session 4389727537996598: 484527786231328; 0x7f7b7000bfe0 0x7f7b7000c3c0
+[484527786231328] Creating ICE agent (ICE Full mode, controlling)
+[33m[WARN][0m [484527786231328] Error resolving mDNS address (9baea835-d252-4a9e-91e9-90dd65683d4a.local): Error resolving “9baea835-d252-4a9e-91e9-90dd65683d4a.local”: Name or service not known
+[484527786231328] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b7000b4f0] WebRTC media is now available
+Destroying session 4389727537996598; 0x7f7b7000bfe0
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000c3c0 0x7f7b7000b4f0 0x7f7b7000c3c0 0x7f7b7000e770
+[janus.plugin.streaming-0x7f7b7000b4f0] No WebRTC media anymore
+[484527786231328] WebRTC resources freed; 0x7f7b7000c3c0 0x7f7b7000bfe0
+[484527786231328] Handle and related resources freed; 0x7f7b7000c3c0 0x7f7b7000bfe0
+Creating new session: 1663679344092619; 0x7f7b7000bfe0
+Creating new handle in session 1663679344092619: 4135448605680457; 0x7f7b7000bfe0 0x7f7b70009000
+[4135448605680457] Creating ICE agent (ICE Full mode, controlling)
+[33m[WARN][0m [4135448605680457] Error resolving mDNS address (cf5b858d-fd00-4849-8371-06cb18f2c2e9.local): Error resolving “cf5b858d-fd00-4849-8371-06cb18f2c2e9.local”: Name or service not known
+[4135448605680457] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b700101f0] WebRTC media is now available
+Destroying session 1663679344092619; 0x7f7b7000bfe0
+Detaching handle from JANUS Streaming plugin; 0x7f7b70009000 0x7f7b700101f0 0x7f7b70009000 0x7f7b7000e630
+[janus.plugin.streaming-0x7f7b700101f0] No WebRTC media anymore
+[4135448605680457] WebRTC resources freed; 0x7f7b70009000 0x7f7b7000bfe0
+[4135448605680457] Handle and related resources freed; 0x7f7b70009000 0x7f7b7000bfe0
+Creating new session: 8785960379764149; 0x7f7b7000bfe0
+Creating new handle in session 8785960379764149: 433103939279969; 0x7f7b7000bfe0 0x7f7b70009000
+[433103939279969] Creating ICE agent (ICE Full mode, controlling)
+[33m[WARN][0m [433103939279969] Error resolving mDNS address (c161e20e-1241-4c2a-b800-9244ecc4eecc.local): Error resolving “c161e20e-1241-4c2a-b800-9244ecc4eecc.local”: Name or service not known
+[433103939279969] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b48015370] WebRTC media is now available
+Destroying session 8785960379764149; 0x7f7b7000bfe0
+Detaching handle from JANUS Streaming plugin; 0x7f7b70009000 0x7f7b48015370 0x7f7b70009000 0x7f7b7000fa00
+[janus.plugin.streaming-0x7f7b48015370] No WebRTC media anymore
+[433103939279969] WebRTC resources freed; 0x7f7b70009000 0x7f7b7000bfe0
+[433103939279969] Handle and related resources freed; 0x7f7b70009000 0x7f7b7000bfe0
+Creating new session: 2164096145651813; 0x7f7b7000bfe0
+Creating new handle in session 2164096145651813: 4423525836708569; 0x7f7b7000bfe0 0x7f7b7000b390
+[4423525836708569] Creating ICE agent (ICE Full mode, controlling)
+[33m[WARN][0m [4423525836708569] Error resolving mDNS address (94083f4d-a955-4475-8022-8a06f1ac7da6.local): Error resolving “94083f4d-a955-4475-8022-8a06f1ac7da6.local”: Name or service not known
+[4423525836708569] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b7000b4f0] WebRTC media is now available
+Creating new session: 7302495864038886; 0x7f7b70013850
+Creating new handle in session 7302495864038886: 994341377591054; 0x7f7b70013850 0x7f7b70009000
+[994341377591054] Creating ICE agent (ICE Full mode, controlling)
+[994341377591054] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b7000fdd0] WebRTC media is now available
+[33m[WARN][0m [994341377591054] Error resolving mDNS address (6e78921c-dbd8-4586-8af2-57579b891b99.local): Error resolving “6e78921c-dbd8-4586-8af2-57579b891b99.local”: Name or service not known
+[33m[WARN][0m [994341377591054] Error resolving mDNS address (93552469-a7f0-4eab-8502-ffdceb4aad83.local): Error resolving “93552469-a7f0-4eab-8502-ffdceb4aad83.local”: Name or service not known
+Destroying session 7302495864038886; 0x7f7b70013850
+Detaching handle from JANUS Streaming plugin; 0x7f7b70009000 0x7f7b7000fdd0 0x7f7b70009000 0x7f7b7000b310
+[janus.plugin.streaming-0x7f7b7000fdd0] No WebRTC media anymore
+[994341377591054] WebRTC resources freed; 0x7f7b70009000 0x7f7b70013850
+[994341377591054] Handle and related resources freed; 0x7f7b70009000 0x7f7b70013850
+Creating new session: 2343077700472109; 0x7f7b70006390
+Creating new handle in session 2343077700472109: 934457063957939; 0x7f7b70006390 0x7f7b70009000
+[934457063957939] Creating ICE agent (ICE Full mode, controlling)
+[934457063957939] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b48020c20] WebRTC media is now available
+[33m[WARN][0m [934457063957939] Error resolving mDNS address (90faac2a-7496-4044-ae93-cb034d6250c0.local): Error resolving “90faac2a-7496-4044-ae93-cb034d6250c0.local”: Name or service not known
+[33m[WARN][0m [934457063957939] Error resolving mDNS address (55c8eb85-92ba-481c-bb40-e6ee8fc3e91c.local): Error resolving “55c8eb85-92ba-481c-bb40-e6ee8fc3e91c.local”: Name or service not known
+Destroying session 2343077700472109; 0x7f7b70006390
+Detaching handle from JANUS Streaming plugin; 0x7f7b70009000 0x7f7b48020c20 0x7f7b70009000 0x7f7b7000e630
+[janus.plugin.streaming-0x7f7b48020c20] No WebRTC media anymore
+[934457063957939] WebRTC resources freed; 0x7f7b70009000 0x7f7b70006390
+[934457063957939] Handle and related resources freed; 0x7f7b70009000 0x7f7b70006390
+Creating new session: 6140549298246110; 0x7f7b48023f50
+Creating new handle in session 6140549298246110: 6994854362788357; 0x7f7b48023f50 0x7f7b70009000
+[6994854362788357] Creating ICE agent (ICE Full mode, controlling)
+[6994854362788357] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b7000fdd0] WebRTC media is now available
+[33m[WARN][0m [6994854362788357] Error resolving mDNS address (f607fae9-0fd7-4413-8ac2-4e322616ae79.local): Error resolving “f607fae9-0fd7-4413-8ac2-4e322616ae79.local”: Name or service not known
+[33m[WARN][0m [6994854362788357] Error resolving mDNS address (311a7ac2-e460-4fcb-b47a-06586f020e68.local): Error resolving “311a7ac2-e460-4fcb-b47a-06586f020e68.local”: Name or service not known
+Destroying session 2164096145651813; 0x7f7b7000bfe0
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000b390 0x7f7b7000b4f0 0x7f7b7000b390 0x7f7b7001f760
+[janus.plugin.streaming-0x7f7b7000b4f0] No WebRTC media anymore
+[4423525836708569] WebRTC resources freed; 0x7f7b7000b390 0x7f7b7000bfe0
+[4423525836708569] Handle and related resources freed; 0x7f7b7000b390 0x7f7b7000bfe0
+Creating new session: 1609016268516753; 0x7f7b7000bfe0
+Creating new handle in session 1609016268516753: 4814466300377587; 0x7f7b7000bfe0 0x7f7b7000b390
+[4814466300377587] Creating ICE agent (ICE Full mode, controlling)
+[33m[WARN][0m [4814466300377587] Error resolving mDNS address (dadf1377-e169-4886-b0a3-69d6add53e14.local): Error resolving “dadf1377-e169-4886-b0a3-69d6add53e14.local”: Name or service not known
+[4814466300377587] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b70006340] WebRTC media is now available
+Destroying session 6140549298246110; 0x7f7b48023f50
+Detaching handle from JANUS Streaming plugin; 0x7f7b70009000 0x7f7b7000fdd0 0x7f7b70009000 0x7f7b7000b310
+[janus.plugin.streaming-0x7f7b7000fdd0] No WebRTC media anymore
+[6994854362788357] WebRTC resources freed; 0x7f7b70009000 0x7f7b48023f50
+[6994854362788357] Handle and related resources freed; 0x7f7b70009000 0x7f7b48023f50
+Creating new session: 7640455648797055; 0x7f7b70011a00
+Creating new handle in session 7640455648797055: 5384251828994179; 0x7f7b70011a00 0x7f7b70009000
+[5384251828994179] Creating ICE agent (ICE Full mode, controlling)
+[5384251828994179] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b4800ae50] WebRTC media is now available
+[33m[WARN][0m [5384251828994179] Error resolving mDNS address (01ed7046-cdec-43db-bfde-80b8f7eec743.local): Error resolving “01ed7046-cdec-43db-bfde-80b8f7eec743.local”: Name or service not known
+[33m[WARN][0m [5384251828994179] Error resolving mDNS address (ce03c1f2-f61b-42a8-b77e-7f2bdcf2788f.local): Error resolving “ce03c1f2-f61b-42a8-b77e-7f2bdcf2788f.local”: Name or service not known
+[janus.plugin.streaming-0x7f7b70006340] No WebRTC media anymore
+[4814466300377587] WebRTC resources freed; 0x7f7b7000b390 0x7f7b7000bfe0
+Destroying session 1609016268516753; 0x7f7b7000bfe0
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000b390 0x7f7b70006340 0x7f7b7000b390 0x7f7b7000e770
+[4814466300377587] Handle and related resources freed; 0x7f7b7000b390 0x7f7b7000bfe0
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+Destroying session 7640455648797055; 0x7f7b70011a00
+Detaching handle from JANUS Streaming plugin; 0x7f7b70009000 0x7f7b4800ae50 0x7f7b70009000 0x7f7b70001ab0
+[janus.plugin.streaming-0x7f7b4800ae50] No WebRTC media anymore
+[5384251828994179] WebRTC resources freed; 0x7f7b70009000 0x7f7b70011a00
+[5384251828994179] Handle and related resources freed; 0x7f7b70009000 0x7f7b70011a00
+Creating new session: 2456455412298941; 0x7f7b70011a00
+Creating new handle in session 2456455412298941: 2108345885591491; 0x7f7b70011a00 0x7f7b70009000
+[2108345885591491] Creating ICE agent (ICE Full mode, controlling)
+[33m[WARN][0m [2108345885591491] Error resolving mDNS address (e5903efe-96a1-4bfc-af23-8b8842d15220.local): Error resolving “e5903efe-96a1-4bfc-af23-8b8842d15220.local”: Name or service not known
+[2108345885591491] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b480232b0] WebRTC media is now available
+Destroying session 2456455412298941; 0x7f7b70011a00
+Detaching handle from JANUS Streaming plugin; 0x7f7b70009000 0x7f7b480232b0 0x7f7b70009000 0x7f7b7000fa00
+[janus.plugin.streaming-0x7f7b480232b0] No WebRTC media anymore
+[2108345885591491] WebRTC resources freed; 0x7f7b70009000 0x7f7b70011a00
+[33m[WARN][0m [2108345885591491] Error resolving mDNS address (db5760f2-de19-4a1c-87bb-bb46663d6f38.local): Error resolving “db5760f2-de19-4a1c-87bb-bb46663d6f38.local”: Name or service not known
+[2108345885591491] Handle and related resources freed; 0x7f7b70009000 0x7f7b70011a00
+Creating new session: 467161744661331; 0x7f7b480262f0
+Creating new handle in session 467161744661331: 4219986548697587; 0x7f7b480262f0 0x7f7b70019c80
+[4219986548697587] Creating ICE agent (ICE Full mode, controlling)
+[4219986548697587] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b70006340] WebRTC media is now available
+[33m[WARN][0m [4219986548697587] Error resolving mDNS address (a1ad973d-9b55-4bd6-8e76-d34e7ae3fd50.local): Error resolving “a1ad973d-9b55-4bd6-8e76-d34e7ae3fd50.local”: Name or service not known
+[33m[WARN][0m [4219986548697587] Error resolving mDNS address (cf435b39-2fb3-475c-8cb7-07784a90d61f.local): Error resolving “cf435b39-2fb3-475c-8cb7-07784a90d61f.local”: Name or service not known
+Destroying session 467161744661331; 0x7f7b480262f0
+Detaching handle from JANUS Streaming plugin; 0x7f7b70019c80 0x7f7b70006340 0x7f7b70019c80 0x7f7b70001ab0
+[janus.plugin.streaming-0x7f7b70006340] No WebRTC media anymore
+[4219986548697587] WebRTC resources freed; 0x7f7b70019c80 0x7f7b480262f0
+[4219986548697587] Handle and related resources freed; 0x7f7b70019c80 0x7f7b480262f0
+Creating new session: 2332536684575431; 0x7f7b70010270
+Creating new handle in session 2332536684575431: 459601472834458; 0x7f7b70010270 0x7f7b7000b4d0
+[459601472834458] Creating ICE agent (ICE Full mode, controlling)
+[459601472834458] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b48024340] WebRTC media is now available
+[33m[WARN][0m [459601472834458] Error resolving mDNS address (8cf719f7-61c9-4416-9e9c-a137d51cbfa1.local): Error resolving “8cf719f7-61c9-4416-9e9c-a137d51cbfa1.local”: Name or service not known
+[33m[WARN][0m [459601472834458] Error resolving mDNS address (724cf4b1-9f50-4cc2-94db-b8ceabf89669.local): Error resolving “724cf4b1-9f50-4cc2-94db-b8ceabf89669.local”: Name or service not known
+Destroying session 2332536684575431; 0x7f7b70010270
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000b4d0 0x7f7b48024340 0x7f7b7000b4d0 0x7f7b7000e630
+[janus.plugin.streaming-0x7f7b48024340] No WebRTC media anymore
+[459601472834458] WebRTC resources freed; 0x7f7b7000b4d0 0x7f7b70010270
+[459601472834458] Handle and related resources freed; 0x7f7b7000b4d0 0x7f7b70010270
+Creating new session: 2685868764042253; 0x7f7b48028560
+Creating new handle in session 2685868764042253: 1892421884069826; 0x7f7b48028560 0x7f7b7000f860
+[1892421884069826] Creating ICE agent (ICE Full mode, controlling)
+[1892421884069826] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b70006340] WebRTC media is now available
+[33m[WARN][0m [1892421884069826] Error resolving mDNS address (5aa181d3-ad98-4950-b961-47f400adaef5.local): Error resolving “5aa181d3-ad98-4950-b961-47f400adaef5.local”: Name or service not known
+[33m[WARN][0m [1892421884069826] Error resolving mDNS address (067f28de-f41f-4210-a8ed-a44190bc5792.local): Error resolving “067f28de-f41f-4210-a8ed-a44190bc5792.local”: Name or service not known
+Destroying session 2685868764042253; 0x7f7b48028560
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000f860 0x7f7b70006340 0x7f7b7000f860 0x7f7b7000fa00
+[janus.plugin.streaming-0x7f7b70006340] No WebRTC media anymore
+[1892421884069826] WebRTC resources freed; 0x7f7b7000f860 0x7f7b48028560
+[1892421884069826] Handle and related resources freed; 0x7f7b7000f860 0x7f7b48028560
+Creating new session: 1824048642561571; 0x7f7b48014c30
+Creating new handle in session 1824048642561571: 9001420792686685; 0x7f7b48014c30 0x7f7b7000f860
+[9001420792686685] Creating ICE agent (ICE Full mode, controlling)
+[33m[WARN][0m [9001420792686685] Error resolving mDNS address (6bd00194-5db0-4004-b5c3-e905c81e43c1.local): Error resolving “6bd00194-5db0-4004-b5c3-e905c81e43c1.local”: Name or service not known
+[33m[WARN][0m [9001420792686685] Error resolving mDNS address (89fc3bb6-e3f9-49d3-8f9d-61fdddcef4dc.local): Error resolving “89fc3bb6-e3f9-49d3-8f9d-61fdddcef4dc.local”: Name or service not known
+[9001420792686685] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b700077b0] WebRTC media is now available
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[UTFPR] New video stream! (#0, ssrc=825307441, index 0)
+Destroying session 1824048642561571; 0x7f7b48014c30
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000f860 0x7f7b700077b0 0x7f7b7000f860 0x7f7b70001ab0
+[janus.plugin.streaming-0x7f7b700077b0] No WebRTC media anymore
+[9001420792686685] WebRTC resources freed; 0x7f7b7000f860 0x7f7b48014c30
+[9001420792686685] Handle and related resources freed; 0x7f7b7000f860 0x7f7b48014c30
+Creating new session: 1426054843248955; 0x7f7b480262f0
+Creating new session: 489414161951973; 0x7f7b7001f700
+Creating new handle in session 489414161951973: 2020686974180332; 0x7f7b7001f700 0x7f7b7000f860
+[2020686974180332] Creating ICE agent (ICE Full mode, controlling)
+[2020686974180332] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b480273c0] WebRTC media is now available
+[33m[WARN][0m [2020686974180332] Error resolving mDNS address (820b8110-5370-436f-ba3a-2a5ab108a5e1.local): Error resolving “820b8110-5370-436f-ba3a-2a5ab108a5e1.local”: Name or service not known
+[33m[WARN][0m [2020686974180332] Error resolving mDNS address (6499ebb2-4e0c-43ea-ab49-92b695e0b268.local): Error resolving “6499ebb2-4e0c-43ea-ab49-92b695e0b268.local”: Name or service not known
+Destroying session 489414161951973; 0x7f7b7001f700
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000f860 0x7f7b480273c0 0x7f7b7000f860 0x7f7b7000e630
+[janus.plugin.streaming-0x7f7b480273c0] No WebRTC media anymore
+[2020686974180332] WebRTC resources freed; 0x7f7b7000f860 0x7f7b7001f700
+[2020686974180332] Handle and related resources freed; 0x7f7b7000f860 0x7f7b7001f700
+Timeout expired for session 1426054843248955...
+Destroying session 1426054843248955; 0x7f7b480262f0
+Creating new session: 3664432589175696; 0x7f7b48015340
+Creating new handle in session 3664432589175696: 2815442200088661; 0x7f7b48015340 0x7f7b7000f860
+[2815442200088661] Creating ICE agent (ICE Full mode, controlling)
+[2815442200088661] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b48016a80] WebRTC media is now available
+[33m[WARN][0m [2815442200088661] Error resolving mDNS address (a9641b0d-ea29-48ea-938c-3e1b3e119961.local): Error resolving “a9641b0d-ea29-48ea-938c-3e1b3e119961.local”: Name or service not known
+[33m[WARN][0m [2815442200088661] Error resolving mDNS address (87976541-3279-42f3-96dd-f68d92a234c0.local): Error resolving “87976541-3279-42f3-96dd-f68d92a234c0.local”: Name or service not known
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /ws/v1/cluster/apps/new-application
+[janus.plugin.streaming-0x7f7b48016a80] No WebRTC media anymore
+[2815442200088661] WebRTC resources freed; 0x7f7b7000f860 0x7f7b48015340
+Timeout expired for session 3664432589175696...
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000f860 0x7f7b48016a80 0x7f7b7000f860 0x7f7b7000fa00
+Destroying session 3664432589175696; 0x7f7b48015340
+[2815442200088661] Handle and related resources freed; 0x7f7b7000f860 0x7f7b48015340
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /ws/v1/cluster/apps/new-application
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /ws/v1/cluster/apps/new-application
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /favicon.ico
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /favicon.ico
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /robots.txt
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /sitemap.xml
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /Gtl5
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /oHXN
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url stager
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url stager64
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /f5F01DP05Te/Cvg37dv4ny76.php
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /ws/v1/cluster/apps/new-application
+Creating new session: 5540326689667411; 0x7f7b48016050
+Creating new handle in session 5540326689667411: 4293451172726534; 0x7f7b48016050 0x7f7b7000f860
+[4293451172726534] Creating ICE agent (ICE Full mode, controlling)
+[4293451172726534] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b70004e50] WebRTC media is now available
+[33m[WARN][0m [4293451172726534] Error resolving mDNS address (6e72eb41-97b8-464b-9124-82e17d71371c.local): Error resolving “6e72eb41-97b8-464b-9124-82e17d71371c.local”: Name or service not known
+[33m[WARN][0m [4293451172726534] Error resolving mDNS address (20b910d4-80fd-4626-a8b9-08c9d9f86ada.local): Error resolving “20b910d4-80fd-4626-a8b9-08c9d9f86ada.local”: Name or service not known
+Destroying session 5540326689667411; 0x7f7b48016050
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000f860 0x7f7b70004e50 0x7f7b7000f860 0x7f7b70001ab0
+[janus.plugin.streaming-0x7f7b70004e50] No WebRTC media anymore
+[4293451172726534] WebRTC resources freed; 0x7f7b7000f860 0x7f7b48016050
+[4293451172726534] Handle and related resources freed; 0x7f7b7000f860 0x7f7b48016050
+Creating new session: 2055189239493642; 0x7f7b48015170
+Creating new handle in session 2055189239493642: 4754976688241243; 0x7f7b48015170 0x7f7b7000f860
+[4754976688241243] Creating ICE agent (ICE Full mode, controlling)
+[4754976688241243] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b70004f70] WebRTC media is now available
+[33m[WARN][0m [4754976688241243] Error resolving mDNS address (c43f0870-3d24-4ed5-98e9-5de7118d8e3e.local): Error resolving “c43f0870-3d24-4ed5-98e9-5de7118d8e3e.local”: Name or service not known
+[33m[WARN][0m [4754976688241243] Error resolving mDNS address (6ed565b3-667b-4d19-952f-4af93b484e75.local): Error resolving “6ed565b3-667b-4d19-952f-4af93b484e75.local”: Name or service not known
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /ws/v1/cluster/apps/new-application
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /ws/v1/cluster/apps/new-application
+Creating new session: 3480750861128162; 0x7f7b48014c30
+Creating new handle in session 3480750861128162: 1459093046169631; 0x7f7b48014c30 0x7f7b7000a180
+[1459093046169631] Creating ICE agent (ICE Full mode, controlling)
+[33m[WARN][0m [1459093046169631] Error resolving mDNS address (a4060914-d786-4bd5-a2d8-d342625bb2d2.local): Error resolving “a4060914-d786-4bd5-a2d8-d342625bb2d2.local”: Name or service not known
+[33m[WARN][0m [1459093046169631] Error resolving mDNS address (4641597b-a518-485e-b781-fa5feabb9cc9.local): Error resolving “4641597b-a518-485e-b781-fa5feabb9cc9.local”: Name or service not known
+[1459093046169631] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b70004e50] WebRTC media is now available
+Destroying session 3480750861128162; 0x7f7b48014c30
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000a180 0x7f7b70004e50 0x7f7b7000a180 0x7f7b70004ea0
+[janus.plugin.streaming-0x7f7b70004e50] No WebRTC media anymore
+[1459093046169631] WebRTC resources freed; 0x7f7b7000a180 0x7f7b48014c30
+[1459093046169631] Handle and related resources freed; 0x7f7b7000a180 0x7f7b48014c30
+Creating new session: 609054774772148; 0x7f7b4801fc30
+Creating new handle in session 609054774772148: 1092702276033780; 0x7f7b4801fc30 0x7f7b7000a180
+[1092702276033780] Creating ICE agent (ICE Full mode, controlling)
+[33m[WARN][0m [1092702276033780] Error resolving mDNS address (8aee8678-c67e-491b-89a8-898a9457954b.local): Error resolving “8aee8678-c67e-491b-89a8-898a9457954b.local”: Name or service not known
+[33m[WARN][0m [1092702276033780] Error resolving mDNS address (622744cb-1c01-4cec-9196-ff8786a9ad2e.local): Error resolving “622744cb-1c01-4cec-9196-ff8786a9ad2e.local”: Name or service not known
+[1092702276033780] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b70014110] WebRTC media is now available
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /favicon.ico
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /robots.txt
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /.well-known/security.txt
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /ws/v1/cluster/apps/new-application
+Timeout expired for session 2055189239493642...
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000f860 0x7f7b70004f70 0x7f7b7000f860 0x7f7b7000e630
+Destroying session 2055189239493642; 0x7f7b48015170
+[janus.plugin.streaming-0x7f7b70004f70] No WebRTC media anymore
+[4754976688241243] WebRTC resources freed; 0x7f7b7000f860 0x7f7b48015170
+[4754976688241243] Handle and related resources freed; 0x7f7b7000f860 0x7f7b48015170
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /ws/v1/cluster/apps/new-application
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+Timeout expired for session 609054774772148...
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000a180 0x7f7b70014110 0x7f7b7000a180 0x7f7b7000a380
+Destroying session 609054774772148; 0x7f7b4801fc30
+[janus.plugin.streaming-0x7f7b70014110] No WebRTC media anymore
+[1092702276033780] WebRTC resources freed; 0x7f7b7000a180 0x7f7b4801fc30
+[1092702276033780] Handle and related resources freed; 0x7f7b7000a180 0x7f7b4801fc30
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /ws/v1/cluster/apps/new-application
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1597] Couldn't find any session 609054774772148...
+[31m[ERR][0m [janus.c:janus_process_incoming_request:1153] Couldn't find any session 609054774772148...
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1597] Couldn't find any session 609054774772148...
+[31m[ERR][0m [janus.c:janus_process_incoming_request:1153] Couldn't find any session 609054774772148...
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1597] Couldn't find any session 609054774772148...
+[31m[ERR][0m [janus.c:janus_process_incoming_request:1153] Couldn't find any session 609054774772148...
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1597] Couldn't find any session 609054774772148...
+[31m[ERR][0m [janus.c:janus_process_incoming_request:1153] Couldn't find any session 609054774772148...
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /ws/v1/cluster/apps/new-application
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /ws/v1/cluster/apps/new-application
+Creating new session: 2990659233006741; 0x7f7b48040ba0
+Creating new handle in session 2990659233006741: 2121759672646699; 0x7f7b48040ba0 0x7f7b7000f860
+[2121759672646699] Creating ICE agent (ICE Full mode, controlling)
+[2121759672646699] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b48028870] WebRTC media is now available
+[33m[WARN][0m [2121759672646699] Error resolving mDNS address (c68b1992-417a-4f1e-aaaf-56229265b9cd.local): Error resolving “c68b1992-417a-4f1e-aaaf-56229265b9cd.local”: Name or service not known
+[33m[WARN][0m [2121759672646699] Error resolving mDNS address (2be9fa50-c3dc-46c1-9e66-93c345924a55.local): Error resolving “2be9fa50-c3dc-46c1-9e66-93c345924a55.local”: Name or service not known
+Timeout expired for session 2990659233006741...
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000f860 0x7f7b48028870 0x7f7b7000f860 0x7f7b7000b310
+Destroying session 2990659233006741; 0x7f7b48040ba0
+[janus.plugin.streaming-0x7f7b48028870] No WebRTC media anymore
+[2121759672646699] WebRTC resources freed; 0x7f7b7000f860 0x7f7b48040ba0
+[2121759672646699] Handle and related resources freed; 0x7f7b7000f860 0x7f7b48040ba0
+Creating new session: 4611966880600284; 0x7f7b4801fc30
+Creating new handle in session 4611966880600284: 5465449207953872; 0x7f7b4801fc30 0x7f7b7000f860
+[5465449207953872] Creating ICE agent (ICE Full mode, controlling)
+[5465449207953872] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b48026130] WebRTC media is now available
+[33m[WARN][0m [5465449207953872] Error resolving mDNS address (bc150bb0-ef52-41ff-95c3-63a1cee27095.local): Error resolving “bc150bb0-ef52-41ff-95c3-63a1cee27095.local”: Name or service not known
+[33m[WARN][0m [5465449207953872] Error resolving mDNS address (18a2c2ed-a812-4d61-8fa1-a57396911cd1.local): Error resolving “18a2c2ed-a812-4d61-8fa1-a57396911cd1.local”: Name or service not known
+Timeout expired for session 4611966880600284...
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000f860 0x7f7b48026130 0x7f7b7000f860 0x7f7b7000a380
+Destroying session 4611966880600284; 0x7f7b4801fc30
+[janus.plugin.streaming-0x7f7b48026130] No WebRTC media anymore
+[5465449207953872] WebRTC resources freed; 0x7f7b7000f860 0x7f7b4801fc30
+[5465449207953872] Handle and related resources freed; 0x7f7b7000f860 0x7f7b4801fc30
+Creating new session: 5356697980661264; 0x7f7b48016010
+Creating new handle in session 5356697980661264: 5109594417062481; 0x7f7b48016010 0x7f7b7000f860
+[5109594417062481] Creating ICE agent (ICE Full mode, controlling)
+[5109594417062481] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b4801f230] WebRTC media is now available
+[33m[WARN][0m [5109594417062481] Error resolving mDNS address (ba35f77e-d42a-4473-88d3-0be27c6d9105.local): Error resolving “ba35f77e-d42a-4473-88d3-0be27c6d9105.local”: Name or service not known
+[33m[WARN][0m [5109594417062481] Error resolving mDNS address (797e6a7c-d7a0-4cf8-82ee-049f77a70bd7.local): Error resolving “797e6a7c-d7a0-4cf8-82ee-049f77a70bd7.local”: Name or service not known
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+Timeout expired for session 5356697980661264...
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000f860 0x7f7b4801f230 0x7f7b7000f860 0x7f7b7000a4a0
+Destroying session 5356697980661264; 0x7f7b48016010
+[janus.plugin.streaming-0x7f7b4801f230] No WebRTC media anymore
+[5109594417062481] WebRTC resources freed; 0x7f7b7000f860 0x7f7b48016010
+[5109594417062481] Handle and related resources freed; 0x7f7b7000f860 0x7f7b48016010
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /ws/v1/cluster/apps/new-application
+Creating new session: 574896814966061; 0x7f7b4800c6b0
+Creating new handle in session 574896814966061: 6397176129329102; 0x7f7b4800c6b0 0x7f7b7000f860
+[6397176129329102] Creating ICE agent (ICE Full mode, controlling)
+[6397176129329102] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f7b70004e50] WebRTC media is now available
+[33m[WARN][0m [6397176129329102] Error resolving mDNS address (a8660b0c-82c4-4d62-9dac-a12382566f4d.local): Error resolving “a8660b0c-82c4-4d62-9dac-a12382566f4d.local”: Name or service not known
+[33m[WARN][0m [6397176129329102] Error resolving mDNS address (4391c328-27d5-4259-a922-dfd054a48360.local): Error resolving “4391c328-27d5-4259-a922-dfd054a48360.local”: Name or service not known
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /ws/v1/cluster/apps/new-application
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+Timeout expired for session 574896814966061...
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000f860 0x7f7b70004e50 0x7f7b7000f860 0x7f7b7000b310
+Destroying session 574896814966061; 0x7f7b4800c6b0
+[janus.plugin.streaming-0x7f7b70004e50] No WebRTC media anymore
+[6397176129329102] WebRTC resources freed; 0x7f7b7000f860 0x7f7b4800c6b0
+[6397176129329102] Handle and related resources freed; 0x7f7b7000f860 0x7f7b4800c6b0
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1597] Couldn't find any session 574896814966061...
+[31m[ERR][0m [janus.c:janus_process_incoming_request:1153] Couldn't find any session 574896814966061...
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1597] Couldn't find any session 574896814966061...
+[31m[ERR][0m [janus.c:janus_process_incoming_request:1153] Couldn't find any session 574896814966061...
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1597] Couldn't find any session 574896814966061...
+[31m[ERR][0m [janus.c:janus_process_incoming_request:1153] Couldn't find any session 574896814966061...
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1597] Couldn't find any session 574896814966061...
+[31m[ERR][0m [janus.c:janus_process_incoming_request:1153] Couldn't find any session 574896814966061...
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /favicon.ico
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /favicon.ico
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /robots.txt
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /sitemap.xml
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /IqIY
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /7oVa
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url stager
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url stager64
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /ws/v1/cluster/apps/new-application
+[UnBSec] New video stream! (#0, ssrc=2918496566, index 0)
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /ws/v1/cluster/apps/new-application
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+[31m[ERR][0m [transports/janus_http.c:janus_http_handler:1436] Invalid url /
+Creating new session: 7329457904213756; 0x7f7b48015170
+Creating new handle in session 7329457904213756: 7079807948790731; 0x7f7b48015170 0x7f7b7000f860
+Destroying session 7329457904213756; 0x7f7b48015170
+Detaching handle from JANUS Streaming plugin; 0x7f7b7000f860 0x7f7b48025870 0x7f7b7000f860 0x7f7b7000a300
+[janus.plugin.streaming-0x7f7b48025870] No WebRTC media anymore
+[7079807948790731] Handle and related resources freed; 0x7f7b7000f860 0x7f7b48015170
+Stopping server, please wait...
+Ending sessions timeout watchdog...
+Sessions watchdog stopped
+Closing transport plugins:
+Stopping webserver(s)...
+JANUS REST (HTTP/HTTPS) transport plugin destroyed!
+WebSockets thread ended
+JANUS WebSockets transport plugin destroyed!
+Ending requests thread...
+Leaving Janus requests handler thread
+Destroying sessions...
+Freeing crypto resources...
+De-initializing SCTP...
+Closing plugins:
+JANUS Streaming plugin destroyed!
+Closing event handlers:
+Bye!
+Logger plugins folder: /usr/local/lib/janus/loggers
+[WARN] 	Couldn't access logger plugins folder...
+---------------------------------------------------
+  Starting Meetecho Janus (WebRTC Server) v1.0.1
+---------------------------------------------------
+
+Checking command line arguments...
+Debug/log level is 4
+Debug/log timestamps are disabled
+Debug/log colors are enabled
+Adding 'vmnet' to the ICE ignore list...
+Using 164.41.98.190 as local IP...
+Token based authentication disabled
+Initializing recorder code
+RTP port range: 6000 -- 6015
+Initializing ICE stuff (Full mode, ICE-TCP candidates disabled, half-trickle, IPv6 support disabled)
+ICE port range: 6000-6015
+TURN REST API backend: (disabled)
+Crypto: OpenSSL >= 1.1.0
+No cert/key specified, autogenerating some...
+Fingerprint of our certificate: 6E:48:83:0B:C9:39:11:AD:49:44:32:01:DF:21:86:DF:C9:1A:67:14:7D:82:C8:80:8E:86:53:3F:89:63:9D:C2
+Event handlers support disabled
+Plugins folder: /usr/local/lib/janus/plugins
+Joining Janus requests handler thread
+[33m[WARN][0m Plugin 'libjanus_videoroom.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_audiobridge.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_videocall.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_nosip.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_voicemail.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_textroom.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_recordplay.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_echotest.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_sip.so' has been disabled, skipping...
+Loading plugin 'libjanus_streaming.so'...
+Sessions watchdog started
+[31m[ERR][0m [plugins/janus_streaming.c:janus_streaming_create_fd:6450] [UFSB] Bind failed for video (port 6004)... 98 (Address already in use)
+[31m[ERR][0m [plugins/janus_streaming.c:janus_streaming_create_rtp_source_stream:6643] [UFSB] Can't bind to port 6004...
+[31m[ERR][0m [plugins/janus_streaming.c:janus_streaming_init:2116] Can't add 'video' stream 'UFSB', error creating source stream...
+JANUS Streaming plugin initialized!
+Transport plugins folder: /usr/local/lib/janus/transports
+Loading transport plugin 'libjanus_websockets.so'...
+libwebsockets logging: 0
+Websockets server started (port 8188)...
+JANUS WebSockets transport plugin initialized!
+Loading transport plugin 'libjanus_http.so'...
+WebSockets thread started
+HTTP transport timer started
+HTTP webserver started (port 8088, /janus path listener)...
+JANUS REST (HTTP/HTTPS) transport plugin initialized!
+[33m[WARN][0m Transport plugin 'libjanus_nanomsg.so' has been disabled, skipping...
+[33m[WARN][0m Transport plugin 'libjanus_pfunix.so' has been disabled, skipping...
+[33m[WARN][0m Transport plugin 'libjanus_rabbitmq.so' has been disabled, skipping...
+[UnBSec] New video stream! (#0, ssrc=2918496566, index 0)
+[UFRGS] New video stream! (#0, ssrc=3268380573, index 0)
+[UTFPR-CP] New video stream! (#0, ssrc=1534644966, index 0)
+Creating new session: 4479922835048074; 0x7f6414001ab0
+Creating new handle in session 4479922835048074: 4045568618969158; 0x7f6414001ab0 0x7f64140022b0
+[4045568618969158] Creating ICE agent (ICE Full mode, controlling)
+[4045568618969158] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f63e4009010] WebRTC media is now available
+[33m[WARN][0m [4045568618969158] Error resolving mDNS address (aa36f338-d8e3-40c1-b0ca-b49486d77541.local): Error resolving “aa36f338-d8e3-40c1-b0ca-b49486d77541.local”: Name or service not known
+[33m[WARN][0m [4045568618969158] Error resolving mDNS address (d1adc0c4-979d-4095-b08b-b0c638141747.local): Error resolving “d1adc0c4-979d-4095-b08b-b0c638141747.local”: Name or service not known
+Destroying session 4479922835048074; 0x7f6414001ab0
+Detaching handle from JANUS Streaming plugin; 0x7f64140022b0 0x7f63e4009010 0x7f64140022b0 0x7f6414002c50
+[janus.plugin.streaming-0x7f63e4009010] No WebRTC media anymore
+[4045568618969158] WebRTC resources freed; 0x7f64140022b0 0x7f6414001ab0
+[4045568618969158] Handle and related resources freed; 0x7f64140022b0 0x7f6414001ab0
+Creating new session: 627482120984165; 0x7f6414001ab0
+Creating new handle in session 627482120984165: 5792674048830047; 0x7f6414001ab0 0x7f64140022b0
+[5792674048830047] Creating ICE agent (ICE Full mode, controlling)
+[33m[WARN][0m [5792674048830047] Error resolving mDNS address (0bfdbceb-e00b-45d9-9bbc-9e2daf08c6c0.local): Error resolving “0bfdbceb-e00b-45d9-9bbc-9e2daf08c6c0.local”: Name or service not known
+[5792674048830047] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f63e4014b30] WebRTC media is now available
+[33m[WARN][0m [5792674048830047] Error resolving mDNS address (6bf29e67-64a6-4f84-a3ce-012533cb3e6a.local): Error resolving “6bf29e67-64a6-4f84-a3ce-012533cb3e6a.local”: Name or service not known
+Destroying session 627482120984165; 0x7f6414001ab0
+Detaching handle from JANUS Streaming plugin; 0x7f64140022b0 0x7f63e4014b30 0x7f64140022b0 0x7f6414002c50
+[janus.plugin.streaming-0x7f63e4014b30] No WebRTC media anymore
+[5792674048830047] WebRTC resources freed; 0x7f64140022b0 0x7f6414001ab0
+[5792674048830047] Handle and related resources freed; 0x7f64140022b0 0x7f6414001ab0
+Creating new session: 7535088918317618; 0x7f6414001ab0
+Creating new handle in session 7535088918317618: 2522256007502193; 0x7f6414001ab0 0x7f64140022b0
+Creating new session: 3978514448056386; 0x7f641400dcc0
+Creating new handle in session 3978514448056386: 1627839007901377; 0x7f641400dcc0 0x7f641400dd20
+Destroying session 7535088918317618; 0x7f6414001ab0
+Detaching handle from JANUS Streaming plugin; 0x7f64140022b0 0x7f641400dbb0 0x7f64140022b0 0x7f6414002c50
+[janus.plugin.streaming-0x7f641400dbb0] No WebRTC media anymore
+[2522256007502193] Handle and related resources freed; 0x7f64140022b0 0x7f6414001ab0
+Creating new session: 5219362022153927; 0x7f6414001ab0
+Creating new handle in session 5219362022153927: 1920532087620951; 0x7f6414001ab0 0x7f64140022b0
+Destroying session 5219362022153927; 0x7f6414001ab0
+Detaching handle from JANUS Streaming plugin; 0x7f64140022b0 0x7f641400da30 0x7f64140022b0 0x7f6414002c50
+[janus.plugin.streaming-0x7f641400da30] No WebRTC media anymore
+[1920532087620951] Handle and related resources freed; 0x7f64140022b0 0x7f6414001ab0
+Creating new session: 569520919885246; 0x7f6414001ab0
+Creating new handle in session 569520919885246: 6368073038949142; 0x7f6414001ab0 0x7f64140022b0
+[6368073038949142] Creating ICE agent (ICE Full mode, controlling)
+[6368073038949142] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f6414002c20] WebRTC media is now available
+[33m[WARN][0m [6368073038949142] Error resolving mDNS address (2a8983dc-e3ea-4028-909c-388639caa1e8.local): Error resolving “2a8983dc-e3ea-4028-909c-388639caa1e8.local”: Name or service not known
+Destroying session 3978514448056386; 0x7f641400dcc0
+Detaching handle from JANUS Streaming plugin; 0x7f641400dd20 0x7f641400dc00 0x7f641400dd20 0x7f641400de60
+[janus.plugin.streaming-0x7f641400dc00] No WebRTC media anymore
+[1627839007901377] Handle and related resources freed; 0x7f641400dd20 0x7f641400dcc0
+Destroying session 569520919885246; 0x7f6414001ab0
+Detaching handle from JANUS Streaming plugin; 0x7f64140022b0 0x7f6414002c20 0x7f64140022b0 0x7f6414002c50
+[janus.plugin.streaming-0x7f6414002c20] No WebRTC media anymore
+[6368073038949142] WebRTC resources freed; 0x7f64140022b0 0x7f6414001ab0
+[6368073038949142] Handle and related resources freed; 0x7f64140022b0 0x7f6414001ab0
+Creating new session: 3244234083860279; 0x7f63e4017fa0
+Creating new handle in session 3244234083860279: 93810372021536; 0x7f63e4017fa0 0x7f641400dd20
+[93810372021536] Creating ICE agent (ICE Full mode, controlling)
+[33m[WARN][0m [93810372021536] Error resolving mDNS address (762ba6dc-a34b-4d2a-81de-aed5cf28950a.local): Error resolving “762ba6dc-a34b-4d2a-81de-aed5cf28950a.local”: Name or service not known
+[33m[WARN][0m [93810372021536] Error resolving mDNS address (24a0b8da-44ed-46e2-9ae3-79d8cfba4b0e.local): Error resolving “24a0b8da-44ed-46e2-9ae3-79d8cfba4b0e.local”: Name or service not known
+[93810372021536] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f641400dbb0] WebRTC media is now available
+Creating new session: 5916309350648141; 0x7f6414002370
+Creating new handle in session 5916309350648141: 2945623097011358; 0x7f6414002370 0x7f641400dbe0
+[2945623097011358] Creating ICE agent (ICE Full mode, controlling)
+[2945623097011358] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f63e4014bc0] WebRTC media is now available
+[33m[WARN][0m [2945623097011358] Error resolving mDNS address (472d3baf-f60a-4516-92ee-e470f12de586.local): Error resolving “472d3baf-f60a-4516-92ee-e470f12de586.local”: Name or service not known
+Destroying session 3244234083860279; 0x7f63e4017fa0
+Detaching handle from JANUS Streaming plugin; 0x7f641400dd20 0x7f641400dbb0 0x7f641400dd20 0x7f6414008750
+[janus.plugin.streaming-0x7f641400dbb0] No WebRTC media anymore
+[93810372021536] WebRTC resources freed; 0x7f641400dd20 0x7f63e4017fa0
+[93810372021536] Handle and related resources freed; 0x7f641400dd20 0x7f63e4017fa0
+Destroying session 5916309350648141; 0x7f6414002370
+Detaching handle from JANUS Streaming plugin; 0x7f641400dbe0 0x7f63e4014bc0 0x7f641400dbe0 0x7f6414001ab0
+[janus.plugin.streaming-0x7f63e4014bc0] No WebRTC media anymore
+[2945623097011358] WebRTC resources freed; 0x7f641400dbe0 0x7f6414002370
+[2945623097011358] Handle and related resources freed; 0x7f641400dbe0 0x7f6414002370
+Creating new session: 1957700229218189; 0x7f6414002370
+Creating new handle in session 1957700229218189: 3870987596397421; 0x7f6414002370 0x7f641400dbe0
+Creating new session: 6406352980474124; 0x7f641400dd20
+Creating new handle in session 6406352980474124: 6827904102840708; 0x7f641400dd20 0x7f6414009ba0
+Stopping server, please wait...
+Ending sessions timeout watchdog...
+Sessions watchdog stopped
+Closing transport plugins:
+Stopping webserver(s)...
+JANUS REST (HTTP/HTTPS) transport plugin destroyed!
+WebSockets thread ended
+JANUS WebSockets transport plugin destroyed!
+Ending requests thread...
+Leaving Janus requests handler thread
+Destroying sessions...
+Freeing crypto resources...
+De-initializing SCTP...
+Closing plugins:
+JANUS Streaming plugin destroyed!
+Closing event handlers:
+Bye!
+Logger plugins folder: /usr/local/lib/janus/loggers
+[WARN] 	Couldn't access logger plugins folder...
+---------------------------------------------------
+  Starting Meetecho Janus (WebRTC Server) v1.0.1
+---------------------------------------------------
+
+Checking command line arguments...
+Debug/log level is 4
+Debug/log timestamps are disabled
+Debug/log colors are enabled
+Adding 'vmnet' to the ICE ignore list...
+Using 164.41.98.190 as local IP...
+Token based authentication disabled
+Initializing recorder code
+RTP port range: 6000 -- 6015
+Initializing ICE stuff (Full mode, ICE-TCP candidates disabled, half-trickle, IPv6 support disabled)
+ICE port range: 6000-6015
+TURN REST API backend: (disabled)
+Crypto: OpenSSL >= 1.1.0
+No cert/key specified, autogenerating some...
+Fingerprint of our certificate: 61:2E:CC:C6:68:75:55:4F:61:8F:BE:14:94:AB:58:19:2A:11:BF:1B:B2:CC:67:AA:48:8C:EC:D0:27:0F:06:17
+Event handlers support disabled
+Plugins folder: /usr/local/lib/janus/plugins
+Joining Janus requests handler thread
+Sessions watchdog started
+[33m[WARN][0m Plugin 'libjanus_videoroom.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_audiobridge.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_videocall.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_nosip.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_voicemail.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_textroom.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_recordplay.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_echotest.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_sip.so' has been disabled, skipping...
+Loading plugin 'libjanus_streaming.so'...
+JANUS Streaming plugin initialized!
+Transport plugins folder: /usr/local/lib/janus/transports
+Loading transport plugin 'libjanus_websockets.so'...
+libwebsockets logging: 0
+Websockets server started (port 8188)...
+JANUS WebSockets transport plugin initialized!
+Loading transport plugin 'libjanus_http.so'...
+WebSockets thread started
+HTTP transport timer started
+HTTP webserver started (port 8088, /janus path listener)...
+JANUS REST (HTTP/HTTPS) transport plugin initialized!
+[33m[WARN][0m Transport plugin 'libjanus_nanomsg.so' has been disabled, skipping...
+[33m[WARN][0m Transport plugin 'libjanus_pfunix.so' has been disabled, skipping...
+[33m[WARN][0m Transport plugin 'libjanus_rabbitmq.so' has been disabled, skipping...
+[UnBSec] New video stream! (#0, ssrc=2918496566, index 0)
+[UFRGS] New video stream! (#0, ssrc=3268380573, index 0)
+[UTFPR-CP] New video stream! (#0, ssrc=1534644966, index 0)
+Creating new session: 7764182869946220; 0x7fb828001ab0
+Creating new handle in session 7764182869946220: 4053163691198720; 0x7fb828001ab0 0x7fb8280022b0
+[4053163691198720] Creating ICE agent (ICE Full mode, controlling)
+[4053163691198720] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7fb800009010] WebRTC media is now available
+[33m[WARN][0m [4053163691198720] Error resolving mDNS address (f16a282f-986c-426e-b3a1-52d4eab01bdc.local): Error resolving “f16a282f-986c-426e-b3a1-52d4eab01bdc.local”: Name or service not known
+Creating new session: 8765719240493152; 0x7fb828007630
+Creating new handle in session 8765719240493152: 8449687096324103; 0x7fb828007630 0x7fb828007690
+[8449687096324103] Creating ICE agent (ICE Full mode, controlling)
+[8449687096324103] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7fb800014c60] WebRTC media is now available
+[33m[WARN][0m [8449687096324103] Error resolving mDNS address (3c5f0869-be22-40a3-a91d-aec213001973.local): Error resolving “3c5f0869-be22-40a3-a91d-aec213001973.local”: Name or service not known
+[33m[WARN][0m [8449687096324103] Error resolving mDNS address (ec212faf-3c1e-4855-a746-17d8aa79f8f9.local): Error resolving “ec212faf-3c1e-4855-a746-17d8aa79f8f9.local”: Name or service not known
+Destroying session 8765719240493152; 0x7fb828007630
+Detaching handle from JANUS Streaming plugin; 0x7fb828007690 0x7fb800014c60 0x7fb828007690 0x7fb828008210
+[janus.plugin.streaming-0x7fb800014c60] No WebRTC media anymore
+[8449687096324103] WebRTC resources freed; 0x7fb828007690 0x7fb828007630
+[8449687096324103] Handle and related resources freed; 0x7fb828007690 0x7fb828007630
+Creating new session: 2466913694560508; 0x7fb828007630
+Creating new handle in session 2466913694560508: 8751374699515809; 0x7fb828007630 0x7fb828007690
+[8751374699515809] Creating ICE agent (ICE Full mode, controlling)
+[33m[WARN][0m [8751374699515809] Error resolving mDNS address (90f8cce2-f792-416e-98db-f23d83d4096d.local): Error resolving “90f8cce2-f792-416e-98db-f23d83d4096d.local”: Name or service not known
+[33m[WARN][0m [8751374699515809] Error resolving mDNS address (a9a9807a-e9e2-4505-a272-f33129760290.local): Error resolving “a9a9807a-e9e2-4505-a272-f33129760290.local”: Name or service not known
+[8751374699515809] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7fb800020260] WebRTC media is now available
+Destroying session 7764182869946220; 0x7fb828001ab0
+Detaching handle from JANUS Streaming plugin; 0x7fb8280022b0 0x7fb800009010 0x7fb8280022b0 0x7fb828002c50
+[janus.plugin.streaming-0x7fb800009010] No WebRTC media anymore
+[4053163691198720] WebRTC resources freed; 0x7fb8280022b0 0x7fb828001ab0
+[4053163691198720] Handle and related resources freed; 0x7fb8280022b0 0x7fb828001ab0
+Creating new session: 2038633897186900; 0x7fb828001ab0
+Creating new handle in session 2038633897186900: 3812129338061195; 0x7fb828001ab0 0x7fb8280022b0
+[3812129338061195] Creating ICE agent (ICE Full mode, controlling)
+[3812129338061195] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7fb8000210a0] WebRTC media is now available
+[33m[WARN][0m [3812129338061195] Error resolving mDNS address (0c054875-6801-4ed8-baec-bad25f7d178e.local): Error resolving “0c054875-6801-4ed8-baec-bad25f7d178e.local”: Name or service not known
+[UFRGS] New video stream! (#0, ssrc=1702470506, index 0)
+[UFRGS] New video stream! (#0, ssrc=3869459088, index 0)
+[UFRGS] New video stream! (#0, ssrc=366635384, index 0)
+Stopping server, please wait...
+Ending sessions timeout watchdog...
+Sessions watchdog stopped
+Closing transport plugins:
+Stopping webserver(s)...
+JANUS REST (HTTP/HTTPS) transport plugin destroyed!
+WebSockets thread ended
+JANUS WebSockets transport plugin destroyed!
+Ending requests thread...
+Leaving Janus requests handler thread
+Destroying sessions...
+Freeing crypto resources...
+De-initializing SCTP...
+Closing plugins:
+[31m[ERR][0m [transports/janus_http.c:janus_http_send_message:1039] Can't notify event, no session object...
+[31m[ERR][0m [transports/janus_http.c:janus_http_send_message:1039] Can't notify event, no session object...
+JANUS Streaming plugin destroyed!
+Closing event handlers:
+Bye!
+Logger plugins folder: /usr/local/lib/janus/loggers
+[WARN] 	Couldn't access logger plugins folder...
+---------------------------------------------------
+  Starting Meetecho Janus (WebRTC Server) v1.0.1
+---------------------------------------------------
+
+Checking command line arguments...
+Debug/log level is 4
+Debug/log timestamps are disabled
+Debug/log colors are enabled
+Adding 'vmnet' to the ICE ignore list...
+Using 164.41.98.190 as local IP...
+Token based authentication disabled
+Initializing recorder code
+RTP port range: 6000 -- 6015
+Initializing ICE stuff (Full mode, ICE-TCP candidates disabled, half-trickle, IPv6 support disabled)
+ICE port range: 6000-6015
+TURN REST API backend: (disabled)
+Crypto: OpenSSL >= 1.1.0
+No cert/key specified, autogenerating some...
+Fingerprint of our certificate: A2:83:27:6C:D2:6A:68:02:2D:A7:27:9A:D0:74:7F:CC:C8:21:3B:D5:7E:39:BA:52:37:1E:91:B4:9C:D3:BA:52
+Event handlers support disabled
+Plugins folder: /usr/local/lib/janus/plugins
+Sessions watchdog started
+Joining Janus requests handler thread
+[33m[WARN][0m Plugin 'libjanus_videoroom.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_audiobridge.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_videocall.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_nosip.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_voicemail.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_textroom.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_recordplay.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_echotest.so' has been disabled, skipping...
+[33m[WARN][0m Plugin 'libjanus_sip.so' has been disabled, skipping...
+Loading plugin 'libjanus_streaming.so'...
+JANUS Streaming plugin initialized!
+Transport plugins folder: /usr/local/lib/janus/transports
+Loading transport plugin 'libjanus_websockets.so'...
+libwebsockets logging: 0
+Websockets server started (port 8188)...
+JANUS WebSockets transport plugin initialized!
+Loading transport plugin 'libjanus_http.so'...
+WebSockets thread started
+HTTP transport timer started
+HTTP webserver started (port 8088, /janus path listener)...
+JANUS REST (HTTP/HTTPS) transport plugin initialized!
+[33m[WARN][0m Transport plugin 'libjanus_nanomsg.so' has been disabled, skipping...
+[33m[WARN][0m Transport plugin 'libjanus_pfunix.so' has been disabled, skipping...
+[33m[WARN][0m Transport plugin 'libjanus_rabbitmq.so' has been disabled, skipping...
+[UnBSec] New video stream! (#0, ssrc=2918496566, index 0)
+[UFRGS] New video stream! (#0, ssrc=366635384, index 0)
+[UTFPR-CP] New video stream! (#0, ssrc=1534644966, index 0)
+Creating new session: 7312303000751039; 0x7f8c2c001ab0
+Creating new handle in session 7312303000751039: 8874273266926190; 0x7f8c2c001ab0 0x7f8c2c0022b0
+[8874273266926190] Creating ICE agent (ICE Full mode, controlling)
+[8874273266926190] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f8c08009010] WebRTC media is now available
+[33m[WARN][0m [8874273266926190] Error resolving mDNS address (45dc8436-67ad-4026-9bd3-48d0ad166e94.local): Error resolving “45dc8436-67ad-4026-9bd3-48d0ad166e94.local”: Name or service not known
+Destroying session 7312303000751039; 0x7f8c2c001ab0
+Detaching handle from JANUS Streaming plugin; 0x7f8c2c0022b0 0x7f8c08009010 0x7f8c2c0022b0 0x7f8c2c002c50
+[janus.plugin.streaming-0x7f8c08009010] No WebRTC media anymore
+[8874273266926190] WebRTC resources freed; 0x7f8c2c0022b0 0x7f8c2c001ab0
+[8874273266926190] Handle and related resources freed; 0x7f8c2c0022b0 0x7f8c2c001ab0
+Creating new session: 3889338562380669; 0x7f8c2c001ab0
+Creating new handle in session 3889338562380669: 2809116475320488; 0x7f8c2c001ab0 0x7f8c2c0022b0
+[2809116475320488] Creating ICE agent (ICE Full mode, controlling)
+[2809116475320488] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f8c08014b30] WebRTC media is now available
+[33m[WARN][0m [2809116475320488] Error resolving mDNS address (f167d9d7-eb99-4d4e-b587-623a2c5d7f71.local): Error resolving “f167d9d7-eb99-4d4e-b587-623a2c5d7f71.local”: Name or service not known
+Destroying session 3889338562380669; 0x7f8c2c001ab0
+Detaching handle from JANUS Streaming plugin; 0x7f8c2c0022b0 0x7f8c08014b30 0x7f8c2c0022b0 0x7f8c2c002c50
+[janus.plugin.streaming-0x7f8c08014b30] No WebRTC media anymore
+[2809116475320488] WebRTC resources freed; 0x7f8c2c0022b0 0x7f8c2c001ab0
+[2809116475320488] Handle and related resources freed; 0x7f8c2c0022b0 0x7f8c2c001ab0
+Creating new session: 8636153491257896; 0x7f8c2c001ab0
+Creating new handle in session 8636153491257896: 7000693946368076; 0x7f8c2c001ab0 0x7f8c2c0022b0
+[7000693946368076] Creating ICE agent (ICE Full mode, controlling)
+[7000693946368076] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f8c08020150] WebRTC media is now available
+[33m[WARN][0m [7000693946368076] Error resolving mDNS address (e0de1829-1498-4f82-be56-9d19996a7cfb.local): Error resolving “e0de1829-1498-4f82-be56-9d19996a7cfb.local”: Name or service not known
+Destroying session 8636153491257896; 0x7f8c2c001ab0
+Detaching handle from JANUS Streaming plugin; 0x7f8c2c0022b0 0x7f8c08020150 0x7f8c2c0022b0 0x7f8c2c002c50
+[janus.plugin.streaming-0x7f8c08020150] No WebRTC media anymore
+[7000693946368076] WebRTC resources freed; 0x7f8c2c0022b0 0x7f8c2c001ab0
+[7000693946368076] Handle and related resources freed; 0x7f8c2c0022b0 0x7f8c2c001ab0
+Creating new session: 635555479599920; 0x7f8c2c001ab0
+Creating new handle in session 635555479599920: 7240510521324471; 0x7f8c2c001ab0 0x7f8c2c0022b0
+[7240510521324471] Creating ICE agent (ICE Full mode, controlling)
+[7240510521324471] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f8c2c0082d0] WebRTC media is now available
+[33m[WARN][0m [7240510521324471] Error resolving mDNS address (093da51c-30c8-4c89-af86-f441fe76232a.local): Error resolving “093da51c-30c8-4c89-af86-f441fe76232a.local”: Name or service not known
+Destroying session 635555479599920; 0x7f8c2c001ab0
+Detaching handle from JANUS Streaming plugin; 0x7f8c2c0022b0 0x7f8c2c0082d0 0x7f8c2c0022b0 0x7f8c2c002c50
+[janus.plugin.streaming-0x7f8c2c0082d0] No WebRTC media anymore
+[7240510521324471] WebRTC resources freed; 0x7f8c2c0022b0 0x7f8c2c001ab0
+[7240510521324471] Handle and related resources freed; 0x7f8c2c0022b0 0x7f8c2c001ab0
+Creating new session: 6238954819623931; 0x7f8c2c001ab0
+Creating new handle in session 6238954819623931: 3767513772937088; 0x7f8c2c001ab0 0x7f8c2c0022b0
+[3767513772937088] Creating ICE agent (ICE Full mode, controlling)
+[3767513772937088] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f8c2c008540] WebRTC media is now available
+[33m[WARN][0m [3767513772937088] Error resolving mDNS address (0e6577c6-080d-4d9d-9f37-836ca44dbd3f.local): Error resolving “0e6577c6-080d-4d9d-9f37-836ca44dbd3f.local”: Name or service not known
+Destroying session 6238954819623931; 0x7f8c2c001ab0
+Detaching handle from JANUS Streaming plugin; 0x7f8c2c0022b0 0x7f8c2c008540 0x7f8c2c0022b0 0x7f8c2c002c50
+[janus.plugin.streaming-0x7f8c2c008540] No WebRTC media anymore
+[3767513772937088] WebRTC resources freed; 0x7f8c2c0022b0 0x7f8c2c001ab0
+[3767513772937088] Handle and related resources freed; 0x7f8c2c0022b0 0x7f8c2c001ab0
+Creating new session: 457402803950482; 0x7f8c08029620
+Creating new handle in session 457402803950482: 4844894650642618; 0x7f8c08029620 0x7f8c2c0022b0
+[4844894650642618] Creating ICE agent (ICE Full mode, controlling)
+[4844894650642618] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f8c2c0082d0] WebRTC media is now available
+[33m[WARN][0m [4844894650642618] Error resolving mDNS address (cf7cd429-4b36-4e14-9b6e-0588b56e085b.local): Error resolving “cf7cd429-4b36-4e14-9b6e-0588b56e085b.local”: Name or service not known
+Creating new session: 5817861502109820; 0x7f8c08029740
+Creating new handle in session 5817861502109820: 5662948520661948; 0x7f8c08029740 0x7f8c2c008f40
+[5662948520661948] Creating ICE agent (ICE Full mode, controlling)
+[5662948520661948] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f8c2c008c40] WebRTC media is now available
+[33m[WARN][0m [5662948520661948] Error resolving mDNS address (a94df6e0-552c-438b-91f8-9e634cce0211.local): Error resolving “a94df6e0-552c-438b-91f8-9e634cce0211.local”: Name or service not known
+[33m[WARN][0m [5662948520661948] Error resolving mDNS address (c32a52e2-44dc-445c-9b95-bbd2598f89e8.local): Error resolving “c32a52e2-44dc-445c-9b95-bbd2598f89e8.local”: Name or service not known
+Destroying session 457402803950482; 0x7f8c08029620
+Detaching handle from JANUS Streaming plugin; 0x7f8c2c0022b0 0x7f8c2c0082d0 0x7f8c2c0022b0 0x7f8c2c008b70
+[janus.plugin.streaming-0x7f8c2c0082d0] No WebRTC media anymore
+[4844894650642618] WebRTC resources freed; 0x7f8c2c0022b0 0x7f8c08029620
+[4844894650642618] Handle and related resources freed; 0x7f8c2c0022b0 0x7f8c08029620
+Creating new session: 6589857193717880; 0x7f8c2c001ab0
+Creating new handle in session 6589857193717880: 3792336517157663; 0x7f8c2c001ab0 0x7f8c2c0022b0
+[3792336517157663] Creating ICE agent (ICE Full mode, controlling)
+[3792336517157663] The DTLS handshake has been completed
+[janus.plugin.streaming-0x7f8c2c0087b0] WebRTC media is now available
+[33m[WARN][0m [3792336517157663] Error resolving mDNS address (5a26d4d9-3881-4722-8843-546fe9726c4c.local): Error resolving “5a26d4d9-3881-4722-8843-546fe9726c4c.local”: Name or service not known
+[UFRGS] New video stream! (#0, ssrc=2782669574, index 0)
+[UFRGS] New video stream! (#0, ssrc=2775333975, index 0)
+Destroying session 6589857193717880; 0x7f8c2c001ab0
+Detaching handle from JANUS Streaming plugin; 0x7f8c2c0022b0 0x7f8c2c0087b0 0x7f8c2c0022b0 0x7f8c2c008de0
+[janus.plugin.streaming-0x7f8c2c0087b0] No WebRTC media anymore
+[3792336517157663] WebRTC resources freed; 0x7f8c2c0022b0 0x7f8c2c001ab0
+[3792336517157663] Handle and related resources freed; 0x7f8c2c0022b0 0x7f8c2c001ab0
