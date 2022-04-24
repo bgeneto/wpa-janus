@@ -71,3 +71,19 @@ UTFPR :
       fmtp = "profile-level-id=42e01f;packetization-mode=1";
     } );
 };
+UFSB : 
+{
+  type = "rtp";
+  id = "2283915518219711";
+  description = "UFSB Secondary Pendulum ";
+  media = ( 
+    {
+      type = "video";
+      mid = "v";
+      label = "video";
+      port = "6004";
+      pt = "126";
+      rtpmap = "H264/90000";
+      fmtp = "profile-level-id=42e01f;packetization-mode=1";
+    } );
+};
