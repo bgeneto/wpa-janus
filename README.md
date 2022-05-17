@@ -7,7 +7,7 @@ This is a Janus WebRTC server Docker image prepared for World Pendulum Alliance 
 Just clone this repo in the directory of your choice:
 
 ```bash
-cd /opt
+cd /opt/docker
 git clone https://github.com/bgeneto/wpa-janus.git
 cd wpa-janus
 docker compose up
