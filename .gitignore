@@ -1,4 +1,4 @@
 *.env
 *.log
 *.bkp
-*.sqlite3
+*.jcfg
