@@ -13,3 +13,6 @@ cd wpa-janus
 docker compose up
 ```
 
+## Configure streams 
+
+Just edit the file `config/janus.plugin.streaming.jcfg` in order to add/change streams, ports etc...
