@@ -16,4 +16,6 @@ docker compose up
 ## Configure streams 
 
 Just edit the file `config/janus.plugin.streaming.jcfg` in order to add/delete/change streams, ports etc...
-Don't forget to change the `admin_secret` in the `config/janus.jcfg` file and the `admin_key` and rtp_port_range in `config/janus.plugin.streaming.jcfg`.
+
+
+Don't forget to change the `admin_secret` in the `config/janus.jcfg` file and the `admin_key` and `rtp_port_range` in `config/janus.plugin.streaming.jcfg`.
