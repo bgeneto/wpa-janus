@@ -4,56 +4,8 @@
 
 general : 
 {
-  admin_key = "UnB-RTP#wpa";
+  admin_key = "<your#wpa-secret-here>";
   rtp_port_range = "6000-6015";
-};
-UnBSec : 
-{
-  type = "rtp";
-  id = "6236006876141836";
-  description = "UnB Secondary Pendulum";
-  media = ( 
-    {
-      type = "video";
-      mid = "v";
-      label = "video";
-      port = "6000";
-      pt = "126";
-      rtpmap = "H264/90000";
-      fmtp = "profile-level-id=42e01f;packetization-mode=1";
-    } );
-};
-FUPSec : 
-{
-  type = "rtp";
-  id = "3507464643573730";
-  description = "FUP Secondary Pendulum";
-  media = ( 
-    {
-      type = "video";
-      mid = "v";
-      label = "video";
-      port = "6001";
-      pt = "126";
-      rtpmap = "H264/90000";
-      fmtp = "profile-level-id=42e01f;packetization-mode=1";
-    } );
-};
-UFRGS : 
-{
-  type = "rtp";
-  id = "6486801508209027";
-  description = "UFRGS Secondary Pendulum ";
-  media = ( 
-    {
-      type = "video";
-      mid = "v";
-      label = "video";
-      port = "6002";
-      pt = "126";
-      rtpmap = "H264/90000";
-      fmtp = "profile-level-id=42e01f;packetization-mode=1";
-    } );
 };
 UTFPR : 
 {
@@ -65,13 +17,13 @@ UTFPR :
       type = "video";
       mid = "v";
       label = "video";
-      port = "6003";
+      port = "6001";
       pt = "126";
       rtpmap = "H264/90000";
       fmtp = "profile-level-id=42e01f;packetization-mode=1";
     } );
 };
-UTFPR-CP : 
+UTFPR : 
 {
   type = "rtp";
   id = "473686792973105";
@@ -81,7 +33,7 @@ UTFPR-CP :
       type = "video";
       mid = "v";
       label = "video";
-      port = "6004";
+      port = "6002";
       pt = "126";
       rtpmap = "H264/90000";
       fmtp = "profile-level-id=42e01f;packetization-mode=1";
@@ -97,7 +49,7 @@ UFSB :
       type = "video";
       mid = "v";
       label = "video";
-      port = "6005";
+      port = "6003";
       pt = "126";
       rtpmap = "H264/90000";
       fmtp = "profile-level-id=42e01f;packetization-mode=1";
